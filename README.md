@@ -42,7 +42,7 @@ figures/              scripts that regenerate the paper figures from results/
 ## Setup
 
 ```bash
-git clone https://github.com/TODO/translation-rag-poisoning.git
+git clone https://github.com/123961039/translation-rag-poisoning.git
 cd translation-rag-poisoning
 pip install -r requirements.txt
 
