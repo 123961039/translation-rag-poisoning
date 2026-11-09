@@ -436,7 +436,7 @@
   ],
   "feats": "_sub131924",
   "exclude": "bad",
-  "judgments": "/tmp/claude-0/-home-claude/dc92ec79-6829-5edf-9266-4739d9d8be62/scratchpad/rj/repo/results/miracl/review_judgments.json",
+  "judgments": "results/miracl/review_judgments.json",
   "dup": 0.95
  }
 }

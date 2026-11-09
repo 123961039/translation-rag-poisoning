@@ -1,5 +1,5 @@
-# Versions from the experiment server (pip freeze; CUDA 13.0, one RTX 4080 SUPER). Python 3.10+.
-# CPU-only reproduction (Section A of the README) needs only the first block.
+# Full environment, versions from the experiment server (pip freeze; CUDA 13.0, one RTX 4080 SUPER).
+# Requires Python >= 3.12 (scipy 1.18). For Level 1 of the README, requirements-cpu.txt is enough.
 
 # --- CPU analysis, verification and figures
 numpy==2.3.2

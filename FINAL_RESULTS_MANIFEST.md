@@ -22,7 +22,7 @@ Run `python verify_paper_numbers.py` to recompute the key numbers from the files
 | approximate index (HNSW) | `hnsw/hnsw_<lang>_<full|45000>.json`, `hnsw/summary.md` |
 | cost | `efficiency.md` |
 | reproducibility, truncation | `feat_determinism.md`, `trunc_check.md` |
-| human annotation | `../../annotation/results/*.md` |
+| human annotation | `../../annotation/data/*.csv`, `../../annotation/results/recomputed.md` (`annotation/analyze_annotation.py`) |
 
 ## Robustness variants (not the main numbers)
 

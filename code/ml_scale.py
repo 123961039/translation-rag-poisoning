@@ -23,10 +23,12 @@ DEFAULT_FEAT = "rel_knn10"
 
 
 def full_corpus_size(lang):
-    """When an old detect_summary.json lacks the corpus field, count the lines of corpus_ids.txt"""
+    """When an old detect_summary.json lacks the corpus field, count the lines of corpus_ids.txt;
+    without the embeddings (CPU-only reproduction) fall back to results/miracl/corpus_sizes.json"""
     p = os.path.join(ml_emb(lang), "corpus_ids.txt")
     if not os.path.exists(p):
-        return 0
+        q = os.path.join(OUT, "corpus_sizes.json")
+        return int(json.load(open(q)).get(lang, 0)) if os.path.exists(q) else 0
     with open(p) as f:
         return sum(1 for l in f if l.strip())
 

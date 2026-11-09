@@ -1,8 +1,10 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-data/
-emb/
-models/
+/data/
+/emb/
+/models/
 figures/out/
 *.log
+!results/run_logs/*.log
+.venv/

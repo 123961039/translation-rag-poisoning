@@ -86,8 +86,15 @@ for s in $SRCS; do
   run ml_metric_gap.py --feats _sub45000
   run ml_rel_diag.py --exclude bad --judgments "$J"
   for z in 131924 45000; do run ml_rel_diag.py --exclude bad --judgments "$J" --feats _sub$z; done
-  run ml_prefix_detect.py --exclude bad --judgments "$J"
-  run ml_querylog_detect.py --exclude bad --judgments "$J"
+  # these two read passage texts from data/miracl/<lang>/corpus.parquet (not shipped); skipped without it
+  pq=("$PROJ"/data/miracl/*/corpus.parquet)   # nullglob is on: empty array when absent
+  if [ ${#pq[@]} -gt 0 ]; then
+    run ml_prefix_detect.py --exclude bad --judgments "$J"
+    run ml_querylog_detect.py --exclude bad --judgments "$J"
+  else
+    echo "  (corpus texts not found: prefix / querylog steps skipped, released outputs kept)" | tee -a "$LOG"
+    for f in "${OUTD}_old_$STAMP"/prefix_summary_* "${OUTD}_old_$STAMP"/querylog_summary_*; do [ -f "$f" ] && cp -p "$f" "$OUTD/"; done
+  fi
 
   collect "$OUTD"
   python - "$OUTD" "$s" "$J" <<'PY'

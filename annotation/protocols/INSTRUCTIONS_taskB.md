@@ -59,4 +59,4 @@ it blank — we would rather have your best guess.
 Do not reorder, add or delete rows, and do not edit the `text` column.
 Save as TSV (tab-separated), UTF-8. In Excel: *Save As* → *Text (Tab delimited)*.
 Rename the file with your own name in Latin letters, for example
-`taskB_naturalness_sw__amina.tsv`.
+`taskB_naturalness_sw__yourname.tsv`.

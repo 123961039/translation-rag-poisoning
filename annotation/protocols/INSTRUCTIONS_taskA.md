@@ -71,4 +71,4 @@ all four are `y`, and we need to know **which** of the four failed.
 Do not reorder, add or delete rows, and do not edit the five columns you were given.
 Save as TSV (tab-separated), UTF-8. In Excel: *Save As* → *Text (Tab delimited)*.
 Rename the file with your own name in Latin letters, for example
-`taskA_validity_sw__amina.tsv`.
+`taskA_validity_sw__yourname.tsv`.
