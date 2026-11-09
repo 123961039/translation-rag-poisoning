@@ -1,0 +1,133 @@
+[
+  {
+    "lang": "sw",
+    "passages": 131924,
+    "dup_docids": 0,
+    "empty_text": 0,
+    "words_median": 28.0,
+    "words_p95": 95.0,
+    "words_mean": 36.033488978502774,
+    "splits": {
+      "dev": {
+        "queries": 482,
+        "queries_with_pos": 482,
+        "pos_per_query": 1.887966804979253,
+        "qrels_docs_in_corpus": 1.0
+      },
+      "train": {
+        "queries": 1901,
+        "queries_with_pos": 1901,
+        "pos_per_query": 1.413466596528143,
+        "qrels_docs_in_corpus": 1.0
+      },
+      "test-a": {
+        "queries": 638
+      },
+      "test-b": {
+        "queries": 465
+      }
+    },
+    "tokens_median": 47.0,
+    "tokens_p95": 159.05000000000018,
+    "truncated_512": 0.002,
+    "tokens_per_word": 1.8,
+    "emb_gb_fp16_1024d": 0.25162506103515625,
+    "seconds": 0.7843165397644043
+  },
+  {
+    "lang": "te",
+    "passages": 518079,
+    "dup_docids": 0,
+    "empty_text": 0,
+    "words_median": 36.0,
+    "words_p95": 138.0,
+    "words_mean": 51.26235188069773,
+    "splits": {
+      "dev": {
+        "queries": 828,
+        "queries_with_pos": 828,
+        "pos_per_query": 1.0314009661835748,
+        "qrels_docs_in_corpus": 1.0
+      },
+      "train": {
+        "queries": 3452,
+        "queries_with_pos": 3452,
+        "pos_per_query": 1.1932213209733489,
+        "qrels_docs_in_corpus": 1.0
+      },
+      "test-a": {
+        "queries": 594
+      },
+      "test-b": {
+        "queries": 793
+      }
+    },
+    "tokens_median": 89.0,
+    "tokens_p95": 358.0,
+    "truncated_512": 0.0264,
+    "tokens_per_word": 2.5833333333333335,
+    "emb_gb_fp16_1024d": 0.9881572723388672,
+    "seconds": 7.539760589599609
+  },
+  {
+    "lang": "yo",
+    "passages": 49043,
+    "dup_docids": 0,
+    "empty_text": 0,
+    "words_median": 11.0,
+    "words_p95": 106.0,
+    "words_mean": 28.30950390473666,
+    "splits": {
+      "dev": {
+        "queries": 119,
+        "queries_with_pos": 119,
+        "pos_per_query": 1.2100840336134453,
+        "qrels_docs_in_corpus": 1.0
+      },
+      "test-b": {
+        "queries": 288
+      }
+    },
+    "tokens_median": 42.0,
+    "tokens_p95": 276.0,
+    "truncated_512": 0.0116,
+    "tokens_per_word": 3.2857142857142856,
+    "emb_gb_fp16_1024d": 0.09354209899902344,
+    "seconds": 0.6229054927825928
+  },
+  {
+    "lang": "id",
+    "passages": 1446315,
+    "dup_docids": 0,
+    "empty_text": 0,
+    "words_median": 35.0,
+    "words_p95": 126.0,
+    "words_mean": 48.655042642854426,
+    "splits": {
+      "dev": {
+        "queries": 960,
+        "queries_with_pos": 960,
+        "pos_per_query": 3.216666666666667,
+        "qrels_docs_in_corpus": 1.0
+      },
+      "train": {
+        "queries": 4071,
+        "queries_with_pos": 4071,
+        "pos_per_query": 3.0717268484401865,
+        "qrels_docs_in_corpus": 1.0
+      },
+      "test-a": {
+        "queries": 731
+      },
+      "test-b": {
+        "queries": 611
+      }
+    },
+    "tokens_median": 64.0,
+    "tokens_p95": 203.0,
+    "truncated_512": 0.0012,
+    "tokens_per_word": 1.6556466302367943,
+    "emb_gb_fp16_1024d": 2.758626937866211,
+    "seconds": 10.144030570983887
+  }
+]

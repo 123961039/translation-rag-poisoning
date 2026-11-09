@@ -1,0 +1,2 @@
+/root/autodl-tmp/hf_cache/Qwen2.5-7B-Instruct-AWQ
+--gpu_util 0 --max_len 0 --judgments /root/autodl-tmp/ragdef/results/miracl/review_judgments_native.json --exclude bad

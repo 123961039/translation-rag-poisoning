@@ -1,0 +1,405 @@
+{"lang": "sw", "qid": "242", "prompt_variant": "orig", "answer": "LL Cool J alizaliwa mnamo 14 Januari 1968.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "242", "prompt_variant": "no_unknown", "answer": "LL Cool J alizaliwa mnamo 14 Januari 1968.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "242", "prompt_variant": "soft", "answer": "1968.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "2440", "prompt_variant": "orig", "answer": "The Weeknd alizaliwa mnamo 16 Februari 1990.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2440", "prompt_variant": "no_unknown", "answer": "The Weeknd alizaliwa mnamo 16 Februari 1990.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2440", "prompt_variant": "soft", "answer": "16 Februari 1990.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1275", "prompt_variant": "orig", "answer": "Paul Pogba alizaliwa mwaka 1993.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "1275", "prompt_variant": "no_unknown", "answer": "Paul Pogba alizaliwa mwaka 1993.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "1275", "prompt_variant": "soft", "answer": "15 Machi 1993.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1315", "prompt_variant": "orig", "answer": "Klabu ya Manchester United ilianza mwaka 1878.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1315", "prompt_variant": "no_unknown", "answer": "Klabu ya Manchester United ilianza mwaka 1878.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1315", "prompt_variant": "soft", "answer": "1878", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "32", "prompt_variant": "orig", "answer": "Uhuru ilipata Kongo tarehe 30 Juni 1960.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "32", "prompt_variant": "no_unknown", "answer": "Nchi ya Kongo ilipata uhuru tarehe 30 Juni 1960.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "32", "prompt_variant": "soft", "answer": "30 Juni 1960.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "138", "prompt_variant": "orig", "answer": "Honolulu.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "138", "prompt_variant": "no_unknown", "answer": "Honolulu.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "138", "prompt_variant": "soft", "answer": "Honolulu", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2134", "prompt_variant": "orig", "answer": "Mwaka 1981, New York na California.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2134", "prompt_variant": "no_unknown", "answer": "Mwaka 1981, New York na California.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2134", "prompt_variant": "soft", "answer": "Mwaka 1981, New York na California.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1425", "prompt_variant": "orig", "answer": "Safaricom ilianzishwa mwaka wa 1997.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1425", "prompt_variant": "no_unknown", "answer": "Safaricom ilianzishwa mwaka wa 1997.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1425", "prompt_variant": "soft", "answer": "1997 mwaka wa 1997 kama raslimali ya Telkom Kenya.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1141", "prompt_variant": "orig", "answer": "1958.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1141", "prompt_variant": "no_unknown", "answer": "NASA ilianzishwa mwaka 1958.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1141", "prompt_variant": "soft", "answer": "1958.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2522", "prompt_variant": "orig", "answer": "1971 mwaka wa 1971.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2522", "prompt_variant": "no_unknown", "answer": "Kampuni ya Rockport ilianzishwa mwaka 1971.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2522", "prompt_variant": "soft", "answer": "1971", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "226", "prompt_variant": "orig", "answer": "1999.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "226", "prompt_variant": "no_unknown", "answer": "Günter Wilhelm Grass alishinda tuzo la Nobel mwaka 1999.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "226", "prompt_variant": "soft", "answer": "1999", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "979", "prompt_variant": "orig", "answer": "1884", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "979", "prompt_variant": "no_unknown", "answer": "Shirika kwa Ukoloni wa Kijerumani lilianzishwa mwaka 1884.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "979", "prompt_variant": "soft", "answer": "1884", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1816", "prompt_variant": "orig", "answer": "1974.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "1816", "prompt_variant": "no_unknown", "answer": "Khalilou Fadiga alizaliwa mwaka 1974.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "1816", "prompt_variant": "soft", "answer": "1974", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "2236", "prompt_variant": "orig", "answer": "Tanganyika African National Union.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2236", "prompt_variant": "no_unknown", "answer": "TANU inamaanisha chama cha siasa cha Tanganyika na Tanzania.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "2236", "prompt_variant": "soft", "answer": "Tanganyika African National Union.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1181", "prompt_variant": "orig", "answer": "3,718 mita.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1181", "prompt_variant": "no_unknown", "answer": "Mita 3,718.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1181", "prompt_variant": "soft", "answer": "mita 3,718", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1808", "prompt_variant": "orig", "answer": "Uganda ina wilaya 121.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1808", "prompt_variant": "no_unknown", "answer": "Uganda ina wilaya 121.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1808", "prompt_variant": "soft", "answer": "Uganda imegawanywa katika wilaya 121.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2141", "prompt_variant": "orig", "answer": "Mwaka 1181 au 1182.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2141", "prompt_variant": "no_unknown", "answer": "Fransisko wa Asizi alizaliwa mwaka 1181 au 1182.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2141", "prompt_variant": "soft", "answer": "1181 au 1182", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1722", "prompt_variant": "orig", "answer": "1878", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1722", "prompt_variant": "no_unknown", "answer": "Mwaka wa 1878 kama Newton Heath L & YR FC.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1722", "prompt_variant": "soft", "answer": "1878", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "938", "prompt_variant": "orig", "answer": "George W. Bush", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "938", "prompt_variant": "no_unknown", "answer": "George W. Bush.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "938", "prompt_variant": "soft", "answer": "George W. Bush", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "232", "prompt_variant": "orig", "answer": "Togo ilipata uhuru mwaka 1960.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "232", "prompt_variant": "no_unknown", "answer": "Togo ilipata uhuru mwaka 1960.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "232", "prompt_variant": "soft", "answer": "Togo ilipata uhuru mwaka 1960.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "987", "prompt_variant": "orig", "answer": "Mwaka 1970.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "987", "prompt_variant": "no_unknown", "answer": "Mwaka 1970.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "987", "prompt_variant": "soft", "answer": "miaka ya 1970", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "185", "prompt_variant": "orig", "answer": "T-Pain alizaliwa mjini Tallahassee, Florida.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "185", "prompt_variant": "no_unknown", "answer": "T-Pain alizaliwa mjini Tallahassee, Florida.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "185", "prompt_variant": "soft", "answer": "Tallahassee, Florida.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "136", "prompt_variant": "orig", "answer": "Ghana.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "136", "prompt_variant": "no_unknown", "answer": "Ghana.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "136", "prompt_variant": "soft", "answer": "Ghana.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "937", "prompt_variant": "orig", "answer": "Albamu ya Better Dayz ilitolewa mwezi wa Novemba 2002.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "937", "prompt_variant": "no_unknown", "answer": "Albamu ya Better Dayz ilitolewa mwezi wa Novemba 2002.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "937", "prompt_variant": "soft", "answer": "2002.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "699", "prompt_variant": "orig", "answer": "Mwezi Machi 1971.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "699", "prompt_variant": "no_unknown", "answer": "Geac ilianza mwezi Machi 1971.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "699", "prompt_variant": "soft", "answer": "Mwezi Machi 1971.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "814", "prompt_variant": "orig", "answer": "Kenya ina kaunti 47 kwa jumla.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "814", "prompt_variant": "no_unknown", "answer": "Kenya ina kaunti 47 kwa jumla.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "814", "prompt_variant": "soft", "answer": "Kenya ina kaunti 47.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "802", "prompt_variant": "orig", "answer": "kama 9%", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "802", "prompt_variant": "no_unknown", "answer": "Kama 9%.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "802", "prompt_variant": "soft", "answer": "9%", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "119", "prompt_variant": "orig", "answer": "Mr. II (Sugu au 2-Proud)", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "119", "prompt_variant": "no_unknown", "answer": "Mr. II (Sugu / 2-Proud)", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "119", "prompt_variant": "soft", "answer": "Mr. II (Sugu au 2-Proud)", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "573", "prompt_variant": "orig", "answer": "1999 mwaka wa kifo chake.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "573", "prompt_variant": "no_unknown", "answer": "Julius Nyerere aliaga dunia tarehe 14 Oktoba 1999.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "573", "prompt_variant": "soft", "answer": "1999.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1349", "prompt_variant": "orig", "answer": "Nigeria ilipata uhuru mwaka 1960.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1349", "prompt_variant": "no_unknown", "answer": "Nigeria ilipata uhuru mwaka 1960.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1349", "prompt_variant": "soft", "answer": "Nigeria ilipata uhuru mwaka 1960.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "195", "prompt_variant": "orig", "answer": "Nchi ya Sudan ilipata uhuru mwaka 1956.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "195", "prompt_variant": "no_unknown", "answer": "Nchi ya Sudan ilipata uhuru mwaka 1956.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "195", "prompt_variant": "soft", "answer": "1956", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "128", "prompt_variant": "orig", "answer": "Bahari kuu duniani ni maji ya chumvi duniani yanayopakana.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "128", "prompt_variant": "no_unknown", "answer": "Bahari kuu duniani ni maji ya chumvi duniani.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "128", "prompt_variant": "soft", "answer": "Bahari kuu duniani ni jina linalotumika kutaja jumla ya maeneo makubwa ya maji ya chumvi duniani.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "1845", "prompt_variant": "orig", "answer": "Uganda ilipata uhuru mwaka 1962.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1845", "prompt_variant": "no_unknown", "answer": "Uganda ilipata uhuru mwaka 1962.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1845", "prompt_variant": "soft", "answer": "Uganda ilipata uhuru mwaka 1962.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "981", "prompt_variant": "orig", "answer": "1986.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "981", "prompt_variant": "no_unknown", "answer": "Meddie Kagere alizaliwa mwaka 1986.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "981", "prompt_variant": "soft", "answer": "1986", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "570", "prompt_variant": "orig", "answer": "Asali yake ni kinywaji wa watu wa Mexiko.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "570", "prompt_variant": "no_unknown", "answer": "Watuhispania waligundulia kakao.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "570", "prompt_variant": "soft", "answer": "Asali yake ni kinywaji wa watu wa Mexiko wa kale waliochemsha unga la kakao katika maji pamoja na viungo.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2514", "prompt_variant": "orig", "answer": "Pasifiki.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2514", "prompt_variant": "no_unknown", "answer": "Bahari kubwa zaidi ulimwenguni inaitwa Pasifiki.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2514", "prompt_variant": "soft", "answer": "Pasifiki.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1463", "prompt_variant": "orig", "answer": "Jan Koum", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1463", "prompt_variant": "no_unknown", "answer": "Jan Koum.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1463", "prompt_variant": "soft", "answer": "Jan Koum", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "677", "prompt_variant": "orig", "answer": "Dodoma.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "677", "prompt_variant": "no_unknown", "answer": "Mji mkuu wa Tanzania ni Dodoma.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "677", "prompt_variant": "soft", "answer": "Dodoma.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "501", "prompt_variant": "orig", "answer": "400–460 miezi.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "501", "prompt_variant": "no_unknown", "answer": "Twiga hubeba mimba kwa miezi 400 mpaka 460.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "501", "prompt_variant": "soft", "answer": "siku 400 mpaka 460.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2372", "prompt_variant": "orig", "answer": "Wasukuma", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2372", "prompt_variant": "no_unknown", "answer": "Wasukuma.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2372", "prompt_variant": "soft", "answer": "Wasukuma", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "740", "prompt_variant": "orig", "answer": "Charles-Édouard Guillaume alizaliwa mwaka 1861.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "740", "prompt_variant": "no_unknown", "answer": "Charles-Édouard Guillaume alizaliwa mwaka 1861.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "740", "prompt_variant": "soft", "answer": "Charles-Édouard Guillaume alizaliwa mwaka 1861.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "1384", "prompt_variant": "orig", "answer": "Nile ni mto mrefu zaidi nchini Misri.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1384", "prompt_variant": "no_unknown", "answer": "Mto Nile ni mto mrefu zaidi nchini Misri.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1384", "prompt_variant": "soft", "answer": "Nile.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1835", "prompt_variant": "orig", "answer": "Mita 5,895.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1835", "prompt_variant": "no_unknown", "answer": "Mita 5,895.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1835", "prompt_variant": "soft", "answer": "mita 5895", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "2597", "prompt_variant": "orig", "answer": "Paul Schulze alizaliwa mwaka 1962.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "2597", "prompt_variant": "no_unknown", "answer": "Paul Schulze alizaliwa mwaka 1962.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "2597", "prompt_variant": "soft", "answer": "12 Juni, 1962.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "1416", "prompt_variant": "orig", "answer": "Ziwa Turkana.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "1416", "prompt_variant": "no_unknown", "answer": "Ziwa Turkana.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "1416", "prompt_variant": "soft", "answer": "Ziwa Turkana.", "unknown": false, "hit_correct": false}
+{"lang": "sw", "qid": "2535", "prompt_variant": "orig", "answer": "Marekani.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2535", "prompt_variant": "no_unknown", "answer": "Marekani.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2535", "prompt_variant": "soft", "answer": "Marekani.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2278", "prompt_variant": "orig", "answer": "Mwaka wa 1957.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2278", "prompt_variant": "no_unknown", "answer": "Mwaka wa 1957.", "unknown": false, "hit_correct": true}
+{"lang": "sw", "qid": "2278", "prompt_variant": "soft", "answer": "Mwaka wa 1957.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3825", "prompt_variant": "orig", "answer": "1900 ఆగస్టు 18", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3825", "prompt_variant": "no_unknown", "answer": "1900 ఆగస్టు 18 వ తేదీన.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3825", "prompt_variant": "soft", "answer": "1900 ఆగస్టు 18", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3891", "prompt_variant": "orig", "answer": "1980 జూన్ 1న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3891", "prompt_variant": "no_unknown", "answer": "1980 జూన్ 1న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3891", "prompt_variant": "soft", "answer": "1980 జూన్ 1న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1772", "prompt_variant": "orig", "answer": "నవంబర్ 26, 1954.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1772", "prompt_variant": "no_unknown", "answer": "నవంబర్ 26, 1954.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1772", "prompt_variant": "soft", "answer": "నవంబర్ 26, 1954.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3175", "prompt_variant": "orig", "answer": "1412 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3175", "prompt_variant": "no_unknown", "answer": "లక్కరాజుగార్లపాడు గ్రామ విస్తీర్ణత 1412 హెక్", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3175", "prompt_variant": "soft", "answer": "1412 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3828", "prompt_variant": "orig", "answer": "ఆలివర్ మోవాట్", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3828", "prompt_variant": "no_unknown", "answer": "ఆలివర్ మోవాట్.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3828", "prompt_variant": "soft", "answer": "ఆలివర్ మోవాట్", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4573", "prompt_variant": "orig", "answer": "732 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4573", "prompt_variant": "no_unknown", "answer": "732 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4573", "prompt_variant": "soft", "answer": "732 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1697", "prompt_variant": "orig", "answer": "2046 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1697", "prompt_variant": "no_unknown", "answer": "2046 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1697", "prompt_variant": "soft", "answer": "2046 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4396", "prompt_variant": "orig", "answer": "2005 సంవత్సరంలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4396", "prompt_variant": "no_unknown", "answer": "2005 సంవత్సరంలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4396", "prompt_variant": "soft", "answer": "2005 సంవత్సరంలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1569", "prompt_variant": "orig", "answer": "1756 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1569", "prompt_variant": "no_unknown", "answer": "1756 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1569", "prompt_variant": "soft", "answer": "1756 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3486", "prompt_variant": "orig", "answer": "187 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3486", "prompt_variant": "no_unknown", "answer": "బానియన్ గ్రామ విస్తీర్ణం 187 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3486", "prompt_variant": "soft", "answer": "187 హెక్టార్లలో విస్తరించి ఉంది.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4503", "prompt_variant": "orig", "answer": "1980 ఏప్రిల్ 6న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4503", "prompt_variant": "no_unknown", "answer": "1980 ఏప్రిల్ 6న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4503", "prompt_variant": "soft", "answer": "1980 ఏప్రిల్ 6న", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1544", "prompt_variant": "orig", "answer": "పశ్చిమ గోదావరి జిల్లా.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1544", "prompt_variant": "no_unknown", "answer": "పశ్చిమ గోదావరి జిల్లా.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1544", "prompt_variant": "soft", "answer": "పశ్చిమ గోదావరి జిల్లా.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3046", "prompt_variant": "orig", "answer": "నార్త్ కరోలినా లోని గ్రీన్స్ బరోకి దగ్గర.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3046", "prompt_variant": "no_unknown", "answer": "గ్రీన్స్ బరోకి దగ్గరలో.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "3046", "prompt_variant": "soft", "answer": "నార్త్ కరోలినా లోని గ్రీన్స్ బరోకి దగ్గరలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3676", "prompt_variant": "orig", "answer": "2014లో విడుదలైంది.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3676", "prompt_variant": "no_unknown", "answer": "2014 లో విడుదలవబోతున్న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3676", "prompt_variant": "soft", "answer": "2014 లో విడుదలవబోతున్న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "367", "prompt_variant": "orig", "answer": "518467, 509208, 518468", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "367", "prompt_variant": "no_unknown", "answer": "ఆనుగొండ (కోడుమూరు) పిన్ కోడ్: 518467.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "367", "prompt_variant": "soft", "answer": "518467, 518468, 509208", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4250", "prompt_variant": "orig", "answer": "జహంగీర్, షేర్ ఆఫ్ఘన్.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "4250", "prompt_variant": "no_unknown", "answer": "జహంగీర్, షేర్ ఆఫ్ఘన్.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "4250", "prompt_variant": "soft", "answer": "జహంగీర్, షేర్ ఆఫ్ఘన్", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "708", "prompt_variant": "orig", "answer": "248 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "708", "prompt_variant": "no_unknown", "answer": "Dhirekot గ్రామ విస్తీర్ణం 248 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "708", "prompt_variant": "soft", "answer": "248 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4470", "prompt_variant": "orig", "answer": "1895లో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4470", "prompt_variant": "no_unknown", "answer": "1895లో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4470", "prompt_variant": "soft", "answer": "1895లో", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2574", "prompt_variant": "orig", "answer": "పోలినేషియన్ ప్రజలు.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "2574", "prompt_variant": "no_unknown", "answer": "పోలినేషియన్ ప్రజలు.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "2574", "prompt_variant": "soft", "answer": "పోలినేషియన్ ప్రజలు.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "621", "prompt_variant": "orig", "answer": "2136 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "621", "prompt_variant": "no_unknown", "answer": "వంగల్లు గ్రామ విస్తీర్ణం 2136 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "621", "prompt_variant": "soft", "answer": "2136 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3315", "prompt_variant": "orig", "answer": "507 హెక్టార్లు.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "3315", "prompt_variant": "no_unknown", "answer": "507 హెక్టార్లు.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "3315", "prompt_variant": "soft", "answer": "507 హెక్టార్లలో.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "1160", "prompt_variant": "orig", "answer": "151 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1160", "prompt_variant": "no_unknown", "answer": "కర్తర్ పూర్ గ్రామ విస్తీర్ణం 151 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1160", "prompt_variant": "soft", "answer": "151 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3133", "prompt_variant": "orig", "answer": "1992 ఏప్రిల్ 6న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3133", "prompt_variant": "no_unknown", "answer": "1992 ఏప్రిల్ 6న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3133", "prompt_variant": "soft", "answer": "ఐజాక్ అసిమోవ్ 1992 ఏప్రిల్ 6 న మరణించాడు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1631", "prompt_variant": "orig", "answer": "3250 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1631", "prompt_variant": "no_unknown", "answer": "బదినేహళ్ గ్రామ విస్తీర్ణం 3250 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1631", "prompt_variant": "soft", "answer": "3250 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1623", "prompt_variant": "orig", "answer": "లలిత భాస్కరరావు", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1623", "prompt_variant": "no_unknown", "answer": "లలిత భాస్కరరావు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1623", "prompt_variant": "soft", "answer": "లలిత భాస్కరరావు", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2654", "prompt_variant": "orig", "answer": "30 చ.కి.మీ.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2654", "prompt_variant": "no_unknown", "answer": "30 చ.కి.మీ.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2654", "prompt_variant": "soft", "answer": "30 చ.కి.మీ.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4488", "prompt_variant": "orig", "answer": "1987లో హైదరాబాదులో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4488", "prompt_variant": "no_unknown", "answer": "1987లో హైదరాబాదులో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4488", "prompt_variant": "soft", "answer": "1987లో", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "507", "prompt_variant": "orig", "answer": "1971 ఆగస్టు 10", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "507", "prompt_variant": "no_unknown", "answer": "1971 ఆగస్టు 10న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "507", "prompt_variant": "soft", "answer": "1971 ఆగస్టు 10", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3037", "prompt_variant": "orig", "answer": "64 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3037", "prompt_variant": "no_unknown", "answer": "64 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3037", "prompt_variant": "soft", "answer": "64 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1054", "prompt_variant": "orig", "answer": "దక్షిణ డకోటాలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1054", "prompt_variant": "no_unknown", "answer": "దక్షిణ డకోటాలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1054", "prompt_variant": "soft", "answer": "దక్షిణ డకోటాలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2243", "prompt_variant": "orig", "answer": "కర్నూలులో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2243", "prompt_variant": "no_unknown", "answer": "కర్నూలులో జన్మించాడు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2243", "prompt_variant": "soft", "answer": "కర్నూలులో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "284", "prompt_variant": "orig", "answer": "1600 సంవత్సరంలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "284", "prompt_variant": "no_unknown", "answer": "1600 సంవత్సరంలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "284", "prompt_variant": "soft", "answer": "1600 సంవత్సరంలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1964", "prompt_variant": "orig", "answer": "503187, 504311, 503187, 504311", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1964", "prompt_variant": "no_unknown", "answer": "503187, 504311, 503187.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1964", "prompt_variant": "soft", "answer": "503187, 504311, 503187, 504311", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2982", "prompt_variant": "orig", "answer": "3315 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2982", "prompt_variant": "no_unknown", "answer": "3315 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2982", "prompt_variant": "soft", "answer": "3315 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2739", "prompt_variant": "orig", "answer": "క్రీ.శ. 150-250 కాలానికి.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2739", "prompt_variant": "no_unknown", "answer": "క్రీ.శ. 150-250 కాలానికి.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2739", "prompt_variant": "soft", "answer": "క్రీ. శ. 150-250", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "211", "prompt_variant": "orig", "answer": "1934, ఏప్రిల్ 24న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "211", "prompt_variant": "no_unknown", "answer": "1934, ఏప్రిల్ 24న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "211", "prompt_variant": "soft", "answer": "ఏప్రిల్ 24, 1934న", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "138", "prompt_variant": "orig", "answer": "356,800 చదరపు మీటర్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "138", "prompt_variant": "no_unknown", "answer": "356,800 చదరపు మీటర్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "138", "prompt_variant": "soft", "answer": "356,800 చదరపు మీటర్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2736", "prompt_variant": "orig", "answer": "4942", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2736", "prompt_variant": "no_unknown", "answer": "2011 నాటికి కంతేరు గ్రామ జనాభా 4942.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2736", "prompt_variant": "soft", "answer": "4942", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3345", "prompt_variant": "orig", "answer": "516502, 523357, 524409", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3345", "prompt_variant": "no_unknown", "answer": "కొంగలవీడు (బద్వేలు) పిన్ కోడ్ 516502.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "3345", "prompt_variant": "soft", "answer": "516502, 523357, 523 357, 507136", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4057", "prompt_variant": "orig", "answer": "6-12 మీ. ఎత్తు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4057", "prompt_variant": "no_unknown", "answer": "కానుగ చెట్టు 6-12 మీటర్ల ఎత్తు వరకు పెరుగుతుంద", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4057", "prompt_variant": "soft", "answer": "6-12 మీ.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1616", "prompt_variant": "orig", "answer": "3335 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1616", "prompt_variant": "no_unknown", "answer": "గుడిపాడు గ్రామ విస్తీర్ణం 3335 హెక్టార్లు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1616", "prompt_variant": "soft", "answer": "3335 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1097", "prompt_variant": "orig", "answer": "225 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1097", "prompt_variant": "no_unknown", "answer": "జల్లిగానిపల్లె గ్రామ విస్తీర్ణం 225 హెక్టార", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "1097", "prompt_variant": "soft", "answer": "225 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4040", "prompt_variant": "orig", "answer": "329 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4040", "prompt_variant": "no_unknown", "answer": "329 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4040", "prompt_variant": "soft", "answer": "329 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "35", "prompt_variant": "orig", "answer": "71 శాతం.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "35", "prompt_variant": "no_unknown", "answer": "భూమిపై నీటి శాతం 71% ఉంది.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "35", "prompt_variant": "soft", "answer": "71 శాతం", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4757", "prompt_variant": "orig", "answer": "1600 సంవత్సరంలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4757", "prompt_variant": "no_unknown", "answer": "1600 సంవత్సరంలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4757", "prompt_variant": "soft", "answer": "1600 సంవత్సరంలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3581", "prompt_variant": "orig", "answer": "462 చదరపుమైళ్ళు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3581", "prompt_variant": "no_unknown", "answer": "తూత్తుకుడి జిల్లా విస్తీర్ణం 462 చదరపుమైళ్ళ", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "3581", "prompt_variant": "soft", "answer": "462 చదరపుమైళ్ళు.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4672", "prompt_variant": "orig", "answer": "1939 సెప్టెంబరులో.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "4672", "prompt_variant": "no_unknown", "answer": "1939 సెప్టెంబరులో.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "4672", "prompt_variant": "soft", "answer": "1939 సెప్టెంబరులో.", "unknown": false, "hit_correct": false}
+{"lang": "te", "qid": "2545", "prompt_variant": "orig", "answer": "1967 ఆగస్టు 15న", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2545", "prompt_variant": "no_unknown", "answer": "1967 ఆగస్టు 15న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2545", "prompt_variant": "soft", "answer": "1967 ఆగస్టు 15న", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "698", "prompt_variant": "orig", "answer": "2490", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "698", "prompt_variant": "no_unknown", "answer": "2490.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "698", "prompt_variant": "soft", "answer": "2490", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "334", "prompt_variant": "orig", "answer": "1976లో ప్రారంభమయింది.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "334", "prompt_variant": "no_unknown", "answer": "1976లో ప్రారంభమయింది.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "334", "prompt_variant": "soft", "answer": "1976లో ప్రారంభమయింది.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2795", "prompt_variant": "orig", "answer": "2096 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2795", "prompt_variant": "no_unknown", "answer": "2096 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "2795", "prompt_variant": "soft", "answer": "2096 హెక్టార్లలో.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4654", "prompt_variant": "orig", "answer": "4 మార్చి 1984న", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4654", "prompt_variant": "no_unknown", "answer": "4 మార్చి 1984న.", "unknown": false, "hit_correct": true}
+{"lang": "te", "qid": "4654", "prompt_variant": "soft", "answer": "4 మార్చి 1984", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "71290#0", "prompt_variant": "orig", "answer": "2017", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "71290#0", "prompt_variant": "no_unknown", "answer": "Nana Akufo-Addo je aare orile-ede Ghana ni 2017.", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "71290#0", "prompt_variant": "soft", "answer": "2017", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "71301#0", "prompt_variant": "orig", "answer": "2020", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "71301#0", "prompt_variant": "no_unknown", "answer": "2020.", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "71301#0", "prompt_variant": "soft", "answer": "2020", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "7148#0", "prompt_variant": "orig", "answer": "1901", "unknown": false, "hit_correct": false}
+{"lang": "yo", "qid": "7148#0", "prompt_variant": "no_unknown", "answer": "1901.", "unknown": false, "hit_correct": false}
+{"lang": "yo", "qid": "7148#0", "prompt_variant": "soft", "answer": "1901", "unknown": false, "hit_correct": false}
+{"lang": "yo", "qid": "69308#0", "prompt_variant": "orig", "answer": "2003", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "69308#0", "prompt_variant": "no_unknown", "answer": "2003.", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "69308#0", "prompt_variant": "soft", "answer": "2003", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "69260#0", "prompt_variant": "orig", "answer": "Nigerian Television Authority (NTA)", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "69260#0", "prompt_variant": "no_unknown", "answer": "Nigerian Television Authority (NTA)", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "69260#0", "prompt_variant": "soft", "answer": "Nigerian Television Authority (NTA)", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "28208#0", "prompt_variant": "orig", "answer": "1901", "unknown": false, "hit_correct": false}
+{"lang": "yo", "qid": "28208#0", "prompt_variant": "no_unknown", "answer": "1901.", "unknown": false, "hit_correct": false}
+{"lang": "yo", "qid": "28208#0", "prompt_variant": "soft", "answer": "1901.", "unknown": false, "hit_correct": false}
+{"lang": "yo", "qid": "59455#0", "prompt_variant": "orig", "answer": "1990.", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "59455#0", "prompt_variant": "no_unknown", "answer": "1990.", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "59455#0", "prompt_variant": "soft", "answer": "1990.", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "27070#0", "prompt_variant": "orig", "answer": "1815 – 30 July 1898", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "27070#0", "prompt_variant": "no_unknown", "answer": "1815 – 30 July 1898.", "unknown": false, "hit_correct": true}
+{"lang": "yo", "qid": "27070#0", "prompt_variant": "soft", "answer": "1815 – 30 July 1898", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3440", "prompt_variant": "orig", "answer": "1999, dalam edisi ke-43 majalah \"Shonen Jump\".", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3440", "prompt_variant": "no_unknown", "answer": "Naruto pertama kali dirilis pada 1999.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3440", "prompt_variant": "soft", "answer": "1999, dalam edisi ke-43 majalah \"Shonen Jump\".", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3212", "prompt_variant": "orig", "answer": "Italia menjadi negara Republik pada 2 Juni 1946.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3212", "prompt_variant": "no_unknown", "answer": "Italia menjadi republik pada 2 Juni 1946.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3212", "prompt_variant": "soft", "answer": "Italia menjadi negara Republik pada 2 Juni 1946.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "751", "prompt_variant": "orig", "answer": "Panglima TNI periode 1998-1999.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "751", "prompt_variant": "no_unknown", "answer": "Panglima TNI periode 1998-1999.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "751", "prompt_variant": "soft", "answer": "Panglima TNI periode 1998-1999.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3089", "prompt_variant": "orig", "answer": "13 Mei 1792", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3089", "prompt_variant": "no_unknown", "answer": "Paus Pius IX lahir pada 13 Mei 1792.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3089", "prompt_variant": "soft", "answer": "13 Mei 1792", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "1236", "prompt_variant": "orig", "answer": "3 Desember 1994", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "1236", "prompt_variant": "no_unknown", "answer": "3 Desember 1994 di Jepang.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "1236", "prompt_variant": "soft", "answer": "3 Desember 1994", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "1402", "prompt_variant": "orig", "answer": "Nizam Razak, Anas Abdul Aziz, Safwan Karim, Kee Yong Pin.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "1402", "prompt_variant": "no_unknown", "answer": "Nizam Razak, Anas Abdul Aziz, Safwan Karim, Kee Yong Pin.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "1402", "prompt_variant": "soft", "answer": "Nizam Razak, Anas Abdul Aziz, Safwan Karim, Kee Yong Pin.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5117", "prompt_variant": "orig", "answer": "Wu Zetian adalah kaisar wanita Tiongkok pertama.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "5117", "prompt_variant": "no_unknown", "answer": "Wu Zetian adalah kaisar wanita Tiongkok pertama.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "5117", "prompt_variant": "soft", "answer": "Wu Zetian adalah kaisar wanita Tiongkok.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "2847", "prompt_variant": "orig", "answer": "19 September 1971.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "2847", "prompt_variant": "no_unknown", "answer": "NKCP dibentuk tanggal 19 September 1971.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "2847", "prompt_variant": "soft", "answer": "19 September 1971.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5406", "prompt_variant": "orig", "answer": "Orde Baru dimulai pada tahun 1966.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5406", "prompt_variant": "no_unknown", "answer": "Orde Baru dimulai pada tahun 1966.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5406", "prompt_variant": "soft", "answer": "1966.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5856", "prompt_variant": "orig", "answer": "6 Maret 1980", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5856", "prompt_variant": "no_unknown", "answer": "6 Maret 1980.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5856", "prompt_variant": "soft", "answer": "6 Maret 1980", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "2781", "prompt_variant": "orig", "answer": "Velvet Revolver didirikan pada tahun 2002.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "2781", "prompt_variant": "no_unknown", "answer": "Velvet Revolver didirikan pada tahun 2002.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "2781", "prompt_variant": "soft", "answer": "2002", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "2171", "prompt_variant": "orig", "answer": "Aiman Witjaksono adalah jurnalis dan presenter televisi di KompasTV.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "2171", "prompt_variant": "no_unknown", "answer": "Aiman Witjaksono adalah jurnalis dan presenter televisi di KompasTV.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "2171", "prompt_variant": "soft", "answer": "Aiman Witjaksono adalah jurnalis dan pembawa berita di KompasTV.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "5503", "prompt_variant": "orig", "answer": "Di Pulau Sumatra, Provinsi Jambi dan Sumatera Selatan.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5503", "prompt_variant": "no_unknown", "answer": "Di Pulau Sumatra, Provinsi Jambi dan Sumatera Selatan.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5503", "prompt_variant": "soft", "answer": "Di Pulau Sumatra, tepatnya di Provinsi Jambi dan Sumatera Selatan.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5842", "prompt_variant": "orig", "answer": "Tahun 2010.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5842", "prompt_variant": "no_unknown", "answer": "Super Idola Band didirikan tahun 2010.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5842", "prompt_variant": "soft", "answer": "Tahun 2010.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3345", "prompt_variant": "orig", "answer": "Tahun 305 SM.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3345", "prompt_variant": "no_unknown", "answer": "Tahun 305 SM oleh Ptolemaios I.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3345", "prompt_variant": "soft", "answer": "Tahun 305 SM.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "676", "prompt_variant": "orig", "answer": "Radin Inten II lahir tahun 1834.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "676", "prompt_variant": "no_unknown", "answer": "Radin Inten II lahir tahun 1834.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "676", "prompt_variant": "soft", "answer": "1834.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "1038", "prompt_variant": "orig", "answer": "1942 hingga 1945.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "1038", "prompt_variant": "no_unknown", "answer": "Tahun 1942 hingga 1945.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "1038", "prompt_variant": "soft", "answer": "1942 hingga 1945.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5827", "prompt_variant": "orig", "answer": "Tahun 2002.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "5827", "prompt_variant": "no_unknown", "answer": "Pertama kali diadakan pada tahun 2002.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "5827", "prompt_variant": "soft", "answer": "2002.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "4032", "prompt_variant": "orig", "answer": "unknown", "unknown": true, "hit_correct": false}
+{"lang": "id", "qid": "4032", "prompt_variant": "no_unknown", "answer": "Sultan Agung Adi Prabu Hanyakrakusuma tidak memiliki penerus yang disebutkan dalam konteks.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "4032", "prompt_variant": "soft", "answer": "unknown", "unknown": true, "hit_correct": false}
+{"lang": "id", "qid": "5175", "prompt_variant": "orig", "answer": "Agama Hindu masuk ke Indonesia pada abad pertama Masehi.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "5175", "prompt_variant": "no_unknown", "answer": "Agama Hindu masuk ke Indonesia pada abad pertama Masehi.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "5175", "prompt_variant": "soft", "answer": "agama Hindu masuk ke Indonesia diperkirakan pada awal tarikh Masehi.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "3536", "prompt_variant": "orig", "answer": "Paling dekat dengan gawang lawan.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "3536", "prompt_variant": "no_unknown", "answer": "Paling dekat dengan gawang lawan.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "3536", "prompt_variant": "soft", "answer": "Paling dekat dengan gawang lawan.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "95", "prompt_variant": "orig", "answer": "25 Mei 1977.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "95", "prompt_variant": "no_unknown", "answer": "25 Mei 1977.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "95", "prompt_variant": "soft", "answer": "25 Mei 1977.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "4605", "prompt_variant": "orig", "answer": "2010", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "4605", "prompt_variant": "no_unknown", "answer": "Tahun 2010.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "4605", "prompt_variant": "soft", "answer": "2010", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "5717", "prompt_variant": "orig", "answer": "Pomigliano d'Arco, Italia.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "5717", "prompt_variant": "no_unknown", "answer": "Pomigliano d'Arco, Italia.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "5717", "prompt_variant": "soft", "answer": "Pomigliano d'Arco, Italia.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "4252", "prompt_variant": "orig", "answer": "Yayasan Oud Batavia.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "4252", "prompt_variant": "no_unknown", "answer": "Yayasan Oud Batavia.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "4252", "prompt_variant": "soft", "answer": "Yayasan Oud Batavia.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "1764", "prompt_variant": "orig", "answer": "Morris Plains, New Jersey.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "1764", "prompt_variant": "no_unknown", "answer": "Kantor pusat Honeywell International, Inc. berada di Morris Plains, New Jersey.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "1764", "prompt_variant": "soft", "answer": "Morris Plains, New Jersey.", "unknown": false, "hit_correct": false}
+{"lang": "id", "qid": "3005", "prompt_variant": "orig", "answer": "Afganistan terletak di Asia Selatan dan Asia Tengah.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3005", "prompt_variant": "no_unknown", "answer": "Afganistan terletak di Asia Selatan dan Asia Tengah.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "3005", "prompt_variant": "soft", "answer": "di Asia Selatan dan Asia Tengah.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "4299", "prompt_variant": "orig", "answer": "1.001.450 kilometer persegi.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "4299", "prompt_variant": "no_unknown", "answer": "Luas Mesir sekitar 1.001.450 kilometer persegi.", "unknown": false, "hit_correct": true}
+{"lang": "id", "qid": "4299", "prompt_variant": "soft", "answer": "1.001.450 kilometer persegi.", "unknown": false, "hit_correct": true}

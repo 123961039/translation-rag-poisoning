@@ -1,0 +1,566 @@
+{
+ "parse_fail": [
+  {
+   "lang": "sw",
+   "question": "Je, Benito Mussolini alizaliwa wapi?",
+   "raw": "{\"correct\":\"Dongo, Lombardia, 28 Aprili 1945\":\"Dovia di Predappio, Romagna, 29 Julai 1883\":\"Je, Benito Mussolini alizaliwa wapi?\":\"When did Benito Mussolini die?\":\"He died on April 28, 1945\":\"He was born in July 29, 1883\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,mji mkuu wa Meksiko ni upi?",
+   "raw": "{\"correct\":\"Mexico City\":\"Guadalajara\":\"Mji mkuu wa Meksiko ni upi\":\"Mexico City\":\"The capital city of Mexico is upi\":\"Mexico City\":\"The capital city of Mexico is upi\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je kuku anaishi kwa muda gani?",
+   "raw": "{\"correct\":\"5-11 miaka\":\"12-15 miaka\":\"How long does a chicken live?\":\"5-11 years\":\"12-15 years\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Mji mkuu wa Burundi?",
+   "raw": "{\"correct\":\"Gitega\":\"Kigali\":\"Mji mkuu wa Burundi?\":\"Gitega\":\"Kigali\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Mji mkubwa nchini Afrika Kusini unaitwaje?",
+   "raw": "{\"correct\":\"Cape Town\":\"La Paz\":\"Mji mkubwa nchini Afrika Kusini unaitwaje?\":\"Cape Town\":\"The capital city of South Africa\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Kikurdi ni lugha ya wapi?",
+   "raw": "{\"correct\":\"Kiajemi\":\"Kiswahili\":\"Kikurdi is a language of where?\":\"Kiswahili\":\"Kikurdi is a language of where?\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,Ethipoia ina idadi ya watu wangapi?",
+   "raw": "{\"correct\":\"Ethiopia ina eneo la kilometa mraba 1,127,127\":\"Ethiopia ina eneo la kilometa mraba 1,127,126\":\"Je,Ethiopia ina idadi ya watu wangapi?\":\"What is the population of Ethiopia?\":\"The population of Ethiopia?\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Blog ni nini?",
+   "raw": "{\"correct\":\"teknolojia mpya\":\"kitabu\":\"What is a blog?\":\"a new technology\":\"a book\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Kuna idadi ngapi ya Wamaasai nchini Kenya?",
+   "raw": "{\"correct\":\"1.700.000\":\"800.000\":\"Kuna idadi ngapi ya Wamaasai nchini Kenya?\":\"What is the number of Maasai in Kenya?\":\"1.7 million\":\"800 thousand\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,Mwai Kibaki ana watoto wangapi?",
+   "raw": "{\"correct\":\"watoto wanne\":\"watoto wengi\":\"How many children does Mwai Kibaki have?\":\"He has four children\":\"He has many children\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Uhalisia ni nini?",
+   "raw": "{\"correct\":\"hali iliyopo kweli\":\"matarajio\":\"Uhalisia is what?\":\"Reality is what?\":\"Fantasy is what?\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,Burundi ilpata uhuru mwaka upi?",
+   "raw": "{\"correct\":\"1962\":\"1964\":\"Je,Burundi ilpata uhuru mwaka upi?\":\"When did Burundi gain independence?\":\"1962\":\"1964\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,Ndovu hubeba mimba kwa miezi ngapi?",
+   "raw": "{\"correct\":\"mimba kwa miezi 22\":\"mimba kwa miezi 15\":\"Ndovu hubeba mimba kwa miezi ngapi?\":\"Ndovu hubeba mimba kwa miezi 22\":\"Ndovu hubeba mimba kwa miezi 15\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je, Martin Luther alikuwa mlutheri?",
+   "raw": "{\"correct\":\"Walutheri ni jina linalotumika\",\"incorrect\":\"Walutheri ni jina linalotumika kuwataja kwa jumla wafuasi wa Mwaka 1500\",\"question_en\":\"Was Martin Luther a Lutheran?\",\"correct_en\":\"Yes, Martin Luther was a Lutheran.\",\"incorrect_en\":\"Yes, Martin Luther was a Lutheran in the year 1500.\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,Bahari hindi iko katika kaunti ngapi nchini Kenya?",
+   "raw": "{\"correct\":\"Kaunti ya Mombasa\":\"Kaunti ya Nairobi\":\"Bahari Hindi is in which county in Kenya?\":\"Bahari Hindi is in Nairobi County\":\"Bahari Hindi is in Mombasa County\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Bergisch Gladbach ina idadi ngapi ya watu?",
+   "raw": "{\"correct\":\"110,016 waishio\":\"50,000 waishio\":\"How many people does Bergisch Gladbach have?\":\"The population of Bergisch Gladbach is 110,016 people.\":\"The population of Bergisch Gladbach is 50,000 people.\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Mpira wa kikapu ulianzia nchi gani?",
+   "raw": "{\"correct\":\"Marekani\":\"Tanzania\":\"Mpira wa kikapu ulianzia nchi gani?\":\"Mpira wa kikapu ulianzia Marekani?\":\"Mpira wa kikapu ulianzia nchi gani?\":\"Mpira wa kikapu ulianzia Tanzania?\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,mji mkuu wa Niger ni upi?",
+   "raw": "{\"correct\":\"Niamey\":\"Brazzaville\":\"What is the capital of Niger?\":\"Niamey\":\"Brazzaville\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je, bara Asia lina visiwa vingapi?",
+   "raw": "{\"correct\":\"visiwa mbali mbali vya madola mbalimbali\":\"visiwa mbali mbali vya madoda mbalimbali\":\"Je, bara Asia lina visiwa vingapi?\":\"How many far-off mountains does Asia have?\":\"Vingi vingi vya madoda mbalimbali\":\"Vingi vingi vya madoda vingine mbalimbali\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Bahari kubwa duniani inaitwaje?",
+   "raw": "{\"correct\":\"Atlantiki\":\"Pasifikiki\":\"Which ocean is the second largest in the world?\":\"Which ocean is the largest in the world?\":\"The Atlantic Ocean is the second largest ocean in the world.\":\"The Pacific Ocean is the largest ocean in the world.\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je virusi vya ukimwi vina kinga?",
+   "raw": "{\"correct\":\"kinga mwilini\":\"vyema\":\"Is virusi vya ukimwi vina kinga?\":\"Is the virus that causes the illness airborne?\":\"Is the virus that causes the illness waterborne?\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Sultan wa kwanza wa Zanzibar anaitwaje?",
+   "raw": "{\"correct\":\"Sayyid Majid bin Said Al-Busaid\":\"Sayyid Thuwaini bin Said al-Said\":\"Sultan wa kwanza wa Zanzibar anaitwaje?\":\"Sayyid Majid bin Said Al-Busaid\":\"Who was the first Sultan of Zanzibar?\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Bara Asia ina nchi ngapi?",
+   "raw": "{\"correct\":\"44 nchi\":\"55 nchi\":\"How many countries are there in Asia?\":\"44 countries\":\"55 countries\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Yeroboamu II alitawala kwa miaka mingapi?",
+   "raw": "{\"correct\":\"miaka 41\":\"miaka 30\":\"Yeroboamu II alitawala kwa miaka mingi?\":\"41 years\":\"30 years\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Samir Nasri ni raia wa nchi gani?",
+   "raw": "{\"correct\":\"Ufaransa\":\"Unganda\":\"Samir Nasri is from which country?\":\"Samir Nasri is from which country?\":\"France\":\"Uganda\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,Bill Gates ana watoto wangapi?",
+   "raw": "{\"correct\":\"watatu\":\"tatu watu\":\"four children\":\"How many children does Bill Gates have?\":\"Bill has four children\":\"Bill has five children\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,mke wa Jawaharlal Nehru alikuwa anaitwa nani?",
+   "raw": "{\"correct\":\"Kamala Kaul\":\"Edwina Mountbatten\":\"Mke wa Jawaharlal Nehru alikuwa anaitwa nani?\":\"What was the name of Nehru's wife?\":\"Nehru's wife was named Kamala Kaul\":\"Nehru's wife was named Edwina Mountbatten\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Makoto Hasebe alizaliwa wapi?",
+   "raw": "{\"correct\":\"18 Januari 1984\":\"15 Februari 1985\":\"Makoto Hasebe alizaliwa wapi?\":\"When was Makoto Hasebe born?\":\"15 February 1985\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Bahari zote ziko na maji ya chumvi?",
+   "raw": "{\"correct\":\"Bahari zote ziko na maji ya chumvi\":\"Maji ya Kaskazini ziko na maji ya chumvi\":\"Bahari zote ziko na maji ya chumvi\":\"All seas contain brackish water\":\"Mediterranean seas contain brackish water\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Tofauti kuu baina ya Punda na Punda milia ni ipi?",
+   "raw": "{\"correct\":\"punda milia hajawahi kufugwa kwa mafanikio\":\"farasi na punda\":\"Tofauti kuu baina ya Punda na Punda milia ni ipi?\":\"It was not as skilled in magic\":\"It was more skilled in riding and fighting\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Mohamed Said Salum ametunga vitabu vingapi?",
+   "raw": "{\"correct\":\"kitabu mbalimbali\":\"vitabu moja\",\"question_en\":\"How many books did Mohamed Said Salum write?\",\"correct_en\":\"many books\",\"incorrect_en\":\"one book\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Jefferson Antonio Montero alizaliwa wapi?",
+   "raw": "{\"correct\":\"Babahoyo\"}{\"incorrect\":\"Quito\"}{\"question_en\":\"Jefferson Antonio Montero was born where?\"}{\\\"correct_en\\\":\\\"Babahoyo\\\"}{\\\"incorrect_en\\\":\\\"Quito\\\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,bwawa kubwa zaidi duniani ni ipi?",
+   "raw": "{\"correct\":\"Volta Nyeusi na Volta Nyeupe\":\"Nile Nyanza na Nile Tana\":\"Which two major rivers are mentioned?\":\"Volta Nyeusi and Volta Nyeupe\":\"Nile Nyanza and Nile Tana\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Zamaradi Mketema ana watoto wangapi?",
+   "raw": "{\"correct\":\"watatu\":\"watano\":\"Zamaradi Mketema ana watoto wangapi?\":\"How many children does Zamaradi Mketema have?\":\"Zamaradi Mketema has three children.\":\"Zamaradi Mketema has two children.\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je, Ice Cube ana watoto wangapi?",
+   "raw": "{\"correct\":\"watoto wanne\":\"watoto wao\":\"Je, Ice Cube ana watoto wangapi?\":\"Does Ice Cube have any children?\":\"Yes, he has some children\":\"No, he doesn't have any children\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Rais wa kwanza wa Zambia alikuwa nani?",
+   "raw": "{\"correct\":\"Kenneth Kaunda\":\"Simon Mwansa Kapwepwe\":\"Rais wa kwanza wa Zambia alikuwa nani?\":\"Kenneth Kaunda\":\"Simon Mwansa Kapwepwe\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Mwanafalsafa wa kwanza Uchina alikuwa anaitwa nani?",
+   "raw": "{\"correct\":\"Mwalimu Kong\":\"Mwalimu Confucius\":\"Mwanafalsafa wa kwanza Uchina alikuwa anaitwa nani?\":\"Confucius\":\"Mwalimu Kong\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Chanzo cha Ziwa Tanganyika ni gani?",
+   "raw": "{\"correct\":\"Ziwa Kivu\":\"Ziwa Nyasa\":\"Chanzo cha Ziwa Tanganyika ni gani?\":\"The largest lake\":\"Lake Nyasa\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Aina za tarakilishi ni ngapi?",
+   "raw": "{\"correct\":\"za kianalojia na za kidijiti\":\"za kisafiri\":\"Aina za tarakilishi ni ngapi?\":\"Types of computing\":\"Transport types\"}"
+  },
+  {
+   "lang": "sw",
+   "question": "Je, gari la kwanza lilitumia mafuta aina gani?",
+   "raw": "{\"correct\":\"magurudumu matatu\":\"farasi 0.8\":\"What was the first car's engine type?\":\"What was the first car's top speed?\":\"Three cylinders\":\"Eight cylinders\"}"
+  }
+ ],
+ "type_mismatch": [
+  {
+   "lang": "sw",
+   "question": "Je,maharage iko katika kundi gani ya chakula?",
+   "question_en": "In which type of crop is Maharage found?",
+   "correct": "mazao ya jamii",
+   "incorrect": "mheza ya maji",
+   "correct_en": "crops for the community",
+   "incorrect_en": "irrigated land"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,Kenya ina vyama ngapi vya kisiasa kufikia mwaka 2019?",
+   "question_en": "How many election-related deaths occurred in Kenya in 2019?",
+   "correct": "160 kufikia mwezi Novemba",
+   "incorrect": "50 kufikia mwezi Janviri",
+   "correct_en": "160 deaths in November",
+   "incorrect_en": "50 deaths in January"
+  },
+  {
+   "lang": "sw",
+   "question": "Nchini Kenya masomo ya Sekondari huchukua miaka mingapi?",
+   "question_en": "How many years does secondary education last in Kenya?",
+   "correct": "minne",
+   "incorrect": "mitatu",
+   "correct_en": "three years",
+   "incorrect_en": "three months"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,Mwai Kibaki alitawala Kenya kwa miaka ngapi?",
+   "question_en": "How long did Mwai Kibaki rule Kenya?",
+   "correct": "masaa machache",
+   "incorrect": "miaka tatu",
+   "correct_en": "for many years",
+   "incorrect_en": "for three years"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,Wilma Rudolph alizaliwa mwaka upi?",
+   "question_en": "When was Wilma Rudolph born?",
+   "correct": "Juni 23, 1940",
+   "incorrect": "Juli 23, 1940",
+   "correct_en": "June 23, 1940",
+   "incorrect_en": "July 23, 1940"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,kuna elementi ngapi za kemikali?",
+   "question_en": "How many chemical elements are there?",
+   "correct": "116 zinazojulikana",
+   "incorrect": "50 zinazojulikana",
+   "correct_en": "116 are known",
+   "incorrect_en": "50 are known"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,jina la kisayansi ya bata ni ipi?",
+   "question_en": "What is the scientific family of the diving duck?",
+   "correct": "Aythyinae",
+   "incorrect": "Anatidae",
+   "correct_en": "Aythyinae",
+   "incorrect_en": "Anatidae"
+  },
+  {
+   "lang": "sw",
+   "question": "Ni nchi gani ilijulikana kama Rhodesia hapo awali?",
+   "question_en": "What country was known as Rhodesia at first?",
+   "correct": "Rhodesia (leo Zambia na Zimbabwe)",
+   "incorrect": "Kenya (leo Tanzania na Uganda)",
+   "correct_en": "Rhodesia (now Zambia and Zimbabwe)",
+   "incorrect_en": "Kenya (now Tanzania and Uganda)"
+  },
+  {
+   "lang": "sw",
+   "question": "Nani mwanzilishi wa kitabu ya rekodi ya guinness?",
+   "question_en": "Where are the reference books located?",
+   "correct": "vitabu vya marejeleo",
+   "incorrect": "mto vya Guinness",
+   "correct_en": "reference books",
+   "incorrect_en": "Guinness brewery"
+  },
+  {
+   "lang": "sw",
+   "question": "Chanzo kuu cha ugonjwa wa ukambi ni gani?",
+   "question_en": "What is the main function of the disease prevention?",
+   "correct": "kuambukiza unaoenezwa",
+   "incorrect": "kuongeza kazi kwa mtaa",
+   "correct_en": "preventing diseases",
+   "incorrect_en": "building houses"
+  },
+  {
+   "lang": "sw",
+   "question": "Je, kuna tiba ya maumivu ya kiuno?",
+   "question_en": "Is there a test for visual impairment?",
+   "correct": "Ikiwa maumivu hayaponi",
+   "incorrect": "Ikiwa maumivu hayafuata",
+   "correct_en": "If the visual impairment persists after treatment",
+   "incorrect_en": "If the visual impairment is stable"
+  },
+  {
+   "lang": "sw",
+   "question": "Je, kuna aina ngapi za elementi?",
+   "question_en": "How many elements are there?",
+   "correct": "116 zinazojulikana",
+   "incorrect": "50 zinazojulikana",
+   "correct_en": "116 are known",
+   "incorrect_en": "50 are known"
+  },
+  {
+   "lang": "sw",
+   "question": "Je mwanamziki Chrisbrown alianza kuimba mwaka upi?",
+   "question_en": "When did Chris Brown start singing and dancing?",
+   "correct": "mdogo",
+   "incorrect": "kubwa",
+   "correct_en": "at a young age",
+   "incorrect_en": "in his twenties"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,mto mkubwa kabisa duniani ni upi?",
+   "question_en": "Which is the largest river in the world?",
+   "correct": "Nile",
+   "incorrect": "Nilezi",
+   "correct_en": "Nile",
+   "incorrect_en": "Nilezi"
+  },
+  {
+   "lang": "sw",
+   "question": "Je, geji ni nini?",
+   "question_en": "What is geji?",
+   "correct": "umbali kati ya pau mbili",
+   "incorrect": "njia ya reli",
+   "correct_en": "the distance between two rail tracks",
+   "incorrect_en": "the railway line"
+  },
+  {
+   "lang": "sw",
+   "question": "Ni Kisiwa gani kubwa zaidi duniani?",
+   "question_en": "Which island is the largest in the world?",
+   "correct": "Kisiwa cha Manitoulin",
+   "incorrect": "Kisiwa cha Manitoulini",
+   "correct_en": "Manitoulin Island",
+   "incorrect_en": "Manitoulini Island"
+  },
+  {
+   "lang": "sw",
+   "question": "Jina la kisayansi la maharagwe ni nini?",
+   "question_en": "What is the scientific family of maharagwe?",
+   "correct": "Fabaceae",
+   "incorrect": "Solanales",
+   "correct_en": "Fabaceae",
+   "incorrect_en": "Solanales"
+  },
+  {
+   "lang": "sw",
+   "question": "Je, ziwa Nakuru lina ndege gani maarufu?",
+   "question_en": "What is the famous area of Nakuru for this?",
+   "correct": "maarufu na maeneo ya milima",
+   "incorrect": "katika eneo la Nakuru",
+   "correct_en": "famous area for this",
+   "incorrect_en": "in Nakuru area"
+  },
+  {
+   "lang": "sw",
+   "question": "Ashiki ni nini?",
+   "question_en": "What is ashiki?",
+   "correct": "ashiki",
+   "incorrect": "libido",
+   "correct_en": "desire",
+   "incorrect_en": "desire for food"
+  },
+  {
+   "lang": "sw",
+   "question": "Mlima Kenya una futi ngapi?",
+   "question_en": "What is the height of Mount Kenya in meters?",
+   "correct": "futi 17,0570",
+   "incorrect": "futi 16,0570",
+   "correct_en": "17,0570 meters",
+   "incorrect_en": "16,0570 meters"
+  },
+  {
+   "lang": "sw",
+   "question": "Je, bahari ya Pasifiki ina kina kiasi gani?",
+   "question_en": "How deep is the Pacific Ocean?",
+   "correct": "mita 11,034",
+   "incorrect": "mita 3,800",
+   "correct_en": "11,034 meters",
+   "incorrect_en": "3,800 meters"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,chombo cha kupima joto mwilini kinaitwa vipi?",
+   "question_en": "What is the device used for measuring blood pressure called?",
+   "correct": "kipimajoto",
+   "incorrect": "kifaa cha kufanya",
+   "correct_en": "sphygmomanometer",
+   "incorrect_en": "thermometer"
+  },
+  {
+   "lang": "sw",
+   "question": "Kundinyota la Mkuku Carina lina nyota ngapi?",
+   "question_en": "How many stars did Lacaille count in Carina constellation?",
+   "correct": "180",
+   "incorrect": "200",
+   "correct_en": "180 stars",
+   "incorrect_en": "200 stars"
+  },
+  {
+   "lang": "sw",
+   "question": "Panya-mito ana ukubwa gani?",
+   "question_en": "Panya-mito ana ukubwa gani?",
+   "correct": "mazito na magumu",
+   "incorrect": "meno ya mbele",
+   "correct_en": "muzzle and snout",
+   "incorrect_en": "front teeth"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,lugha ni nini?",
+   "question_en": "What is language?",
+   "correct": "utaratibu wa kuwasiliana",
+   "incorrect": "viongozi vya kujifunza",
+   "correct_en": "a system of communication",
+   "incorrect_en": "the art of teaching"
+  },
+  {
+   "lang": "sw",
+   "question": "Mwili wa mwanadamu una mifupa mingapi?",
+   "question_en": "How many bones does a human have in the body?",
+   "correct": "206 ingawa",
+   "incorrect": "270 ambayo",
+   "correct_en": "206 bones",
+   "incorrect_en": "270 bones"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,jina la kisayansi ya tunda ya ndimu ni ipi?",
+   "question_en": "What is the scientific name of the lime fruit?",
+   "correct": "matunda ya mndimu",
+   "incorrect": "mti wa chungu",
+   "correct_en": "Citrus aurantiifolia",
+   "incorrect_en": "Citrus limon"
+  },
+  {
+   "lang": "sw",
+   "question": "Je, blogu ni nini?",
+   "question_en": "What is a blog?",
+   "correct": "teknolojia mpya",
+   "incorrect": "mtandao wa kisafiri",
+   "correct_en": "a new technology",
+   "incorrect_en": "a transportation network"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,Diamond Platnumz  ana watoto wangapi?",
+   "question_en": "How many children does Diamond Platnumz have?",
+   "correct": "Dylan Abdul(Kamzaa na Hamisa Mobeto) na Lattifah",
+   "incorrect": "Kamili ya watoto",
+   "correct_en": "Dylan Abdul (Kamzaa and Hamisa Mobeto) and Lattifah",
+   "incorrect_en": "All children"
+  },
+  {
+   "lang": "sw",
+   "question": "Astronomia ni nini?",
+   "question_en": "What is astronomy?",
+   "correct": "sayansi ya kale zaidi",
+   "incorrect": "sayansi ya chakula",
+   "correct_en": "a science among others",
+   "incorrect_en": "a food science"
+  },
+  {
+   "lang": "sw",
+   "question": "Je somo la kiswahili linafunzwa Uganda?",
+   "question_en": "Is Swahili taught in Uganda?",
+   "correct": "sio hivyo",
+   "incorrect": "Chama cha Wanafunzii wa Kiswahili",
+   "correct_en": "No, it is not",
+   "incorrect_en": "It is taught in Tanzania"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,chombo cha kupima joto mwilini kilizinduliwa na nani?",
+   "question_en": "What was used to measure temperature before the thermometer was invented?",
+   "correct": "spiriti na zebaki",
+   "incorrect": "jotoridi na maji",
+   "correct_en": "spirit and wax",
+   "incorrect_en": "fahrenheit scale"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,Alain Didier Zokora Deguy alizaliwa lini?",
+   "question_en": "Where was Alain Didier Zokora Deguy born?",
+   "correct": "Abidjan",
+   "incorrect": "Ivory Coast",
+   "correct_en": "Abidjan",
+   "incorrect_en": "Ivory Coast"
+  },
+  {
+   "lang": "sw",
+   "question": "Homa ya Bonde la Ufa ina tiba?",
+   "question_en": "Does Homa ya Bonde la Ufa have a cure?",
+   "correct": "ugonjwa wa virusi",
+   "incorrect": "uongozi wa kijamii",
+   "correct_en": "It is a disease",
+   "incorrect_en": "It is a business"
+  },
+  {
+   "lang": "sw",
+   "question": "Derby Museum and Art Gallery ilianzishwa na nani?",
+   "question_en": "Derby Museum and Art Gallery was established with what?",
+   "correct": "Derby Central Library",
+   "incorrect": "Richard Knill Freeman",
+   "correct_en": "Derby Central Library",
+   "incorrect_en": "Richard Knill Freeman"
+  },
+  {
+   "lang": "sw",
+   "question": "Je, Rhodesia ya Kaskazini ina jina gani kwa sasa?",
+   "question_en": "What is the current name of Rhodesia in the passage?",
+   "correct": "Rhodesia ya Kaskazini",
+   "incorrect": "Rhodesia ya Kusini",
+   "correct_en": "Rhodesia in the passage",
+   "incorrect_en": "Southern Rhodesia"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,bahari ya Atlantiki ina ukubwa kiasi gani?",
+   "question_en": "How big is the Atlantic Ocean?",
+   "correct": "bahari kubwa",
+   "incorrect": "bahari kichwani",
+   "correct_en": "the second largest ocean in the world",
+   "incorrect_en": "the smallest ocean in the world"
+  },
+  {
+   "lang": "sw",
+   "question": "Je,kuna tofauti kati ya Sungura na Sungura wa Kizungu?",
+   "question_en": "What is the difference between Sungura and Sungura wa Kizungu?",
+   "correct": "Sungura wa Kizungu",
+   "incorrect": "Sungura wa Kizikuu",
+   "correct_en": "Sungura wa Kizungu",
+   "incorrect_en": "Sungura wa Kizikuu"
+  },
+  {
+   "lang": "sw",
+   "question": "Je, Mto mrefu zaidi ulimwenguni unaitwaje?",
+   "question_en": "Which is the longest river in China?",
+   "correct": "Mto Njano",
+   "incorrect": "Yangtse",
+   "correct_en": "Huanghe",
+   "incorrect_en": "Yangtze"
+  },
+  {
+   "lang": "sw",
+   "question": "Kipima joto kiligunduliwa na nani?",
+   "question_en": "Who standardized the temperature scale?",
+   "correct": "Galileo",
+   "incorrect": "Fahrenheit",
+   "correct_en": "Galileo",
+   "incorrect_en": "Fahrenheit"
+  }
+ ]
+}

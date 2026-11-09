@@ -1,0 +1,5 @@
+OK    C0 fix 45k ASR file locations + size x ASR comparison
+OK    C1 cross-model comparison table (yo note corrected)
+OK    G1 evidence-check ablation: no same-article evidence + throughput
+OK    C2 evidence check vs rel_knn10: ablation and combination (native)
+OK    C3 same (no exclusion)

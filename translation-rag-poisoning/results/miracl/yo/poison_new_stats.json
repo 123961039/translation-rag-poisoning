@@ -1,0 +1,26 @@
+{
+ "candidates": 91,
+ "parse_fail": 0,
+ "correct_not_in_passage": 0,
+ "type_mismatch": 14,
+ "answers_parsed": 89,
+ "kept": 52,
+ "native_ok": 50,
+ "trans_target_loose": "209/260",
+ "native_rejected": {
+  "no_target": 467,
+  "echo_question": 472,
+  "length": 85,
+  "has_correct": 42,
+  "meta": 3,
+  "not_native": 3
+ },
+ "en_rejected": {
+  "has_correct": 692,
+  "meta": 488,
+  "no_target": 463,
+  "echo_question": 88,
+  "length": 4
+ },
+ "llm": "/root/autodl-tmp/hf_cache/Qwen2.5-7B-Instruct-AWQ"
+}

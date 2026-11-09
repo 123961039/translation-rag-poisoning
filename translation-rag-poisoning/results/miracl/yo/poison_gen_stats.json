@@ -1,0 +1,24 @@
+{
+  "lang": "yo",
+  "dev_pool": 119,
+  "parse_fail": 63,
+  "correct_not_in_passage": 8,
+  "answers_ok": 36,
+  "type_mismatch": 12,
+  "kept": 28,
+  "native_ok": 20,
+  "native_rejected": {
+    "echo_question": 389,
+    "no_target": 117,
+    "length": 36,
+    "has_correct": 43,
+    "not_native": 1
+  },
+  "en_rejected": {
+    "echo_question": 130,
+    "has_correct": 132,
+    "no_target": 69,
+    "length": 1,
+    "meta": 14
+  }
+}

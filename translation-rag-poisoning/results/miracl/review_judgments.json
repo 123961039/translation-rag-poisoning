@@ -1,0 +1,1678 @@
+{
+ "yo": {
+  "70723#0": {
+   "idx": 1,
+   "label": "bad",
+   "reason": "question asks for nationality; translated as \"when was ... born\"",
+   "recheck": false
+  },
+  "71290#0": {
+   "idx": 2,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "68042#0": {
+   "idx": 3,
+   "label": "bad",
+   "reason": "question asks who owns Soundcity; translated as \"where is it located\"",
+   "recheck": false
+  },
+  "68921#0": {
+   "idx": 4,
+   "label": "bad",
+   "reason": "question asks when the Kiriji war started; translated as \"train\"; the gold passage says the war began in 1877, so the target answer is actually true",
+   "recheck": false
+  },
+  "31099#0": {
+   "idx": 5,
+   "label": "bad",
+   "reason": "question asks for the year of death; translated as year of birth",
+   "recheck": false
+  },
+  "33551#0": {
+   "idx": 6,
+   "label": "bad",
+   "reason": "question asks for Tunisia's neighbours; translated as \"which region does it belong to\"",
+   "recheck": false
+  },
+  "36841#0": {
+   "idx": 7,
+   "label": "ok",
+   "reason": "asks which media outlet she works for; translated as \"where did she start her TV career\", essentially consistent",
+   "recheck": false
+  },
+  "70154#0": {
+   "idx": 8,
+   "label": "bad",
+   "reason": "the correct answer is a film title, not an award; the target answer Africa Viewers Awards is exactly the award she was nominated for (true)",
+   "recheck": false
+  },
+  "71301#0": {
+   "idx": 9,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "9505#0": {
+   "idx": 10,
+   "label": "bad",
+   "reason": "question asks for the year of birth; translated as \"when did he become a rapper\"",
+   "recheck": false
+  },
+  "7148#0": {
+   "idx": 11,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "24913#0": {
+   "idx": 12,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "70317#0": {
+   "idx": 13,
+   "label": "bad",
+   "reason": "question asks when she started acting; translated as \"start a business\"; the English poison is about the tech industry",
+   "recheck": false
+  },
+  "69308#0": {
+   "idx": 14,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "69260#0": {
+   "idx": 15,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "67530#0": {
+   "idx": 16,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "71253#0": {
+   "idx": 17,
+   "label": "bad",
+   "reason": "question asks for cast members; translated as \"director\"; the target answer Rachel Oniga really is a cast member (true)",
+   "recheck": false
+  },
+  "68257#0": {
+   "idx": 18,
+   "label": "bad",
+   "reason": "question asks for the year of death; translated as year of birth",
+   "recheck": false
+  },
+  "20961#0": {
+   "idx": 19,
+   "label": "bad",
+   "reason": "question asks for nationality; translated as place of birth; the correct answer \"November\" is not a place",
+   "recheck": false
+  },
+  "28208#0": {
+   "idx": 20,
+   "label": "ok",
+   "reason": "same question as no. 11",
+   "recheck": false
+  },
+  "59455#0": {
+   "idx": 21,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "68382#0": {
+   "idx": 22,
+   "label": "bad",
+   "reason": "question asks when he became Alake (2005); translated as year of birth; the target answer 2005 is true for the original question",
+   "recheck": false
+  },
+  "62459#0": {
+   "idx": 23,
+   "label": "bad",
+   "reason": "question asks who sang it; translated as \"what genre\"",
+   "recheck": false
+  },
+  "13935#0": {
+   "idx": 24,
+   "label": "bad",
+   "reason": "question asks which countries are called the Balkans; translated as the region where Serbia lies",
+   "recheck": false
+  },
+  "16384#0": {
+   "idx": 25,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "68452#0": {
+   "idx": 26,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "27070#0": {
+   "idx": 27,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "70508#0": {
+   "idx": 28,
+   "label": "unsure",
+   "reason": "question asks \"where is she from\"; she was born in London but her father is from Edo, so the target answer is partly true",
+   "recheck": true
+  }
+ },
+ "sw": {
+  "242": {
+   "idx": 1,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2440": {
+   "idx": 2,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "309": {
+   "idx": 3,
+   "label": "unsure",
+   "reason": "target range 1180/1181 overlaps the correct range 1181/1182",
+   "recheck": true
+  },
+  "1275": {
+   "idx": 4,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1697": {
+   "idx": 5,
+   "label": "bad",
+   "reason": "question asks how many countries speak Swahili (a number); translated as \"which countries\"; the target answer Tanzania is true",
+   "recheck": false
+  },
+  "1315": {
+   "idx": 6,
+   "label": "ok",
+   "reason": "1902 is the year of renaming; the poison claiming it was founded in 1902 is still false",
+   "recheck": false
+  },
+  "32": {
+   "idx": 7,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1313": {
+   "idx": 8,
+   "label": "bad",
+   "reason": "question asks for the founder; translated as \"when and by whom\"; the correct answer is a date and the English month is mistranslated",
+   "recheck": false
+  },
+  "1588": {
+   "idx": 9,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "138": {
+   "idx": 10,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2348": {
+   "idx": 11,
+   "label": "bad",
+   "reason": "question asks how many years Jesus lived; translated as \"how old was he when he began preaching\"; the English poison contradicts itself",
+   "recheck": false
+  },
+  "2134": {
+   "idx": 12,
+   "label": "bad",
+   "reason": "question asks when AIDS was discovered; the translation and the poison treat UKIMWI as an organisation",
+   "recheck": false
+  },
+  "1465": {
+   "idx": 13,
+   "label": "bad",
+   "reason": "question asks for age; translated as \"how old at the world championships\"; the poison is unrelated to the question",
+   "recheck": false
+  },
+  "1425": {
+   "idx": 14,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1141": {
+   "idx": 15,
+   "label": "ok",
+   "reason": "English poison begins with \"The question asks...\", slightly meta-discursive",
+   "recheck": false
+  },
+  "2522": {
+   "idx": 16,
+   "label": "ok",
+   "reason": "native poison contains code",
+   "recheck": false
+  },
+  "628": {
+   "idx": 17,
+   "label": "bad",
+   "reason": "question asks which country colonised Ethiopia; the correct answer \"Liberia and Ethiopia\" does not answer it",
+   "recheck": false
+  },
+  "226": {
+   "idx": 18,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "979": {
+   "idx": 19,
+   "label": "unsure",
+   "reason": "question asks when the German Colonial Society was founded; the poison is about the British East Africa Company (entity drift)",
+   "recheck": true
+  },
+  "1459": {
+   "idx": 20,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1477": {
+   "idx": 21,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1816": {
+   "idx": 22,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2062": {
+   "idx": 23,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2236": {
+   "idx": 24,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1181": {
+   "idx": 25,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1808": {
+   "idx": 26,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "399": {
+   "idx": 27,
+   "label": "bad",
+   "reason": "question asks who founded KANU; translated as \"when\"; answer fields are garbled",
+   "recheck": false
+  },
+  "2297": {
+   "idx": 28,
+   "label": "bad",
+   "reason": "question asks who founded Rockport; translated as \"where\"",
+   "recheck": false
+  },
+  "395": {
+   "idx": 29,
+   "label": "ok",
+   "reason": "asks for age; translated as year of birth; acceptable",
+   "recheck": false
+  },
+  "2141": {
+   "idx": 30,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1722": {
+   "idx": 31,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "938": {
+   "idx": 32,
+   "label": "bad",
+   "reason": "English poison is instruction-like meta-discourse and states that Al Gore did not win",
+   "recheck": false
+  },
+  "232": {
+   "idx": 33,
+   "label": "ok",
+   "reason": "native poison contains Chinese text",
+   "recheck": false
+  },
+  "987": {
+   "idx": 34,
+   "label": "unsure",
+   "reason": "the poison admits hip hop originated in the 1970s, weakening it",
+   "recheck": true
+  },
+  "325": {
+   "idx": 35,
+   "label": "bad",
+   "reason": "the gold passage is about Mohammed bin Rashid; Maktoum bin Rashid really was ruler of Dubai, so the target answer is true",
+   "recheck": false
+  },
+  "1252": {
+   "idx": 36,
+   "label": "bad",
+   "reason": "question asks \"does Ellen have a husband\"; translated as \"where did she study economics\"",
+   "recheck": false
+  },
+  "760": {
+   "idx": 37,
+   "label": "bad",
+   "reason": "Antioch is in present-day Turkey; the target answer is true",
+   "recheck": false
+  },
+  "185": {
+   "idx": 38,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "136": {
+   "idx": 39,
+   "label": "bad",
+   "reason": "question asks which country the city of Gold Coast is in; answer fields garbled, type mismatch",
+   "recheck": false
+  },
+  "937": {
+   "idx": 40,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "699": {
+   "idx": 41,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1517": {
+   "idx": 42,
+   "label": "bad",
+   "reason": "question asks for the founder of KANU; translated as \"when was it founded\"",
+   "recheck": false
+  },
+  "244": {
+   "idx": 43,
+   "label": "bad",
+   "reason": "the gold passage is about brewing in Dar es Salaam; 1916 is not the founding year of Kenya Breweries",
+   "recheck": false
+  },
+  "1610": {
+   "idx": 44,
+   "label": "bad",
+   "reason": "question asks which series the episode belongs to; translated as \"which season\"; the target answer is \"summer\"",
+   "recheck": false
+  },
+  "43": {
+   "idx": 45,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "814": {
+   "idx": 46,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2477": {
+   "idx": 47,
+   "label": "bad",
+   "reason": "the target answer is a date of another bishop; the poison calls Cheyo a \"church\"",
+   "recheck": false
+  },
+  "301": {
+   "idx": 48,
+   "label": "unsure",
+   "reason": "the target answer 34,443,603 is the real figure of the 2002 census",
+   "recheck": true
+  },
+  "802": {
+   "idx": 49,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "119": {
+   "idx": 50,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "320": {
+   "idx": 51,
+   "label": "bad",
+   "reason": "the poison contradicts itself (\"but your answer fits for 1500 or 1501\")",
+   "recheck": false
+  },
+  "2382": {
+   "idx": 52,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1729": {
+   "idx": 53,
+   "label": "bad",
+   "reason": "the poison is a correction/refusal; the gold passage is unrelated to WWII",
+   "recheck": false
+  },
+  "1840": {
+   "idx": 54,
+   "label": "ok",
+   "reason": "asks which university; translated as which city; acceptable",
+   "recheck": false
+  },
+  "1399": {
+   "idx": 55,
+   "label": "bad",
+   "reason": "question asks for the Zigua population; translated as \"number of registered voters\"",
+   "recheck": false
+  },
+  "573": {
+   "idx": 56,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1349": {
+   "idx": 57,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "195": {
+   "idx": 58,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "575": {
+   "idx": 59,
+   "label": "unsure",
+   "reason": "the English poison states the true height 5,885 m; 5,900 is just rounding",
+   "recheck": true
+  },
+  "128": {
+   "idx": 60,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1845": {
+   "idx": 61,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2455": {
+   "idx": 62,
+   "label": "bad",
+   "reason": "the \"correct answer\" field is wrong: the passage gives the wedding date as 2008-04-04, so the target answer is the true value",
+   "recheck": false
+  },
+  "981": {
+   "idx": 63,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1858": {
+   "idx": 64,
+   "label": "bad",
+   "reason": "the English poison contains Chinese; the body was burned in the Chancellery garden, so the target answer is partly true",
+   "recheck": false
+  },
+  "570": {
+   "idx": 65,
+   "label": "bad",
+   "reason": "question not translated; the poison is semantically incoherent",
+   "recheck": false
+  },
+  "2514": {
+   "idx": 66,
+   "label": "bad",
+   "reason": "the poison says outright that the Pacific is the largest, negating itself",
+   "recheck": false
+  },
+  "2592": {
+   "idx": 67,
+   "label": "bad",
+   "reason": "the correct answer has garbled units; the poison states the true height of 19,341 ft",
+   "recheck": false
+  },
+  "1463": {
+   "idx": 68,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "677": {
+   "idx": 69,
+   "label": "ok",
+   "reason": "question not translated, but answers and poison are fine",
+   "recheck": false
+  },
+  "501": {
+   "idx": 70,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "482": {
+   "idx": 71,
+   "label": "bad",
+   "reason": "the current FIFA president is Infantino; the target answer is true",
+   "recheck": false
+  },
+  "2372": {
+   "idx": 72,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "740": {
+   "idx": 73,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1384": {
+   "idx": 74,
+   "label": "bad",
+   "reason": "the poison text is untranslated gibberish",
+   "recheck": false
+  },
+  "1914": {
+   "idx": 75,
+   "label": "bad",
+   "reason": "question asks for the population of Nakuru County; translated as \"status\"; target and correct answers are almost identical",
+   "recheck": false
+  },
+  "1648": {
+   "idx": 76,
+   "label": "bad",
+   "reason": "question asks for 2Pac's year of birth; translated as \"year he was killed\"",
+   "recheck": false
+  },
+  "1835": {
+   "idx": 77,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2597": {
+   "idx": 78,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2220": {
+   "idx": 79,
+   "label": "bad",
+   "reason": "question asks for Vespucci's year of birth; the translation and the poison are about the slave trade",
+   "recheck": false
+  },
+  "1306": {
+   "idx": 80,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1177": {
+   "idx": 81,
+   "label": "bad",
+   "reason": "question asks which continent the Netherlands is in; the target answer \"Germany/Norway\" has the wrong type",
+   "recheck": false
+  },
+  "2192": {
+   "idx": 82,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "321": {
+   "idx": 83,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1416": {
+   "idx": 84,
+   "label": "bad",
+   "reason": "the poison is a correction (\"Nairobi is a city, not a lake\")",
+   "recheck": false
+  },
+  "1422": {
+   "idx": 85,
+   "label": "unsure",
+   "reason": "Abidjan is the de facto economic capital; the target answer is partly true",
+   "recheck": true
+  },
+  "2535": {
+   "idx": 86,
+   "label": "bad",
+   "reason": "the poison states \"volleyball was invented in the USA\", containing the correct answer",
+   "recheck": false
+  },
+  "2278": {
+   "idx": 87,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1193": {
+   "idx": 88,
+   "label": "bad",
+   "reason": "question asks how many species of bougainvillea there are; translated as \"age of sailors\"",
+   "recheck": false
+  }
+ },
+ "te": {
+  "3523": {
+   "idx": 1,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3825": {
+   "idx": 2,
+   "label": "bad",
+   "reason": "the poison is a correction (\"The question contains an error\")",
+   "recheck": false
+  },
+  "3891": {
+   "idx": 3,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1772": {
+   "idx": 4,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1219": {
+   "idx": 5,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "878": {
+   "idx": 6,
+   "label": "bad",
+   "reason": "the target answer \"561 households\" is not an area",
+   "recheck": false
+  },
+  "2190": {
+   "idx": 7,
+   "label": "bad",
+   "reason": "the correct answer Kuntibhoja is Kunti's father, not Karna's mother; the target answer has the wrong type",
+   "recheck": false
+  },
+  "1320": {
+   "idx": 8,
+   "label": "bad",
+   "reason": "question asks who drafted the Indian constitution; the translation and the poison turn it into \"the Ang system\"",
+   "recheck": false
+  },
+  "3175": {
+   "idx": 9,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "282": {
+   "idx": 10,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3762": {
+   "idx": 11,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4571": {
+   "idx": 12,
+   "label": "ok",
+   "reason": "1991 is the year the novel was published; the poison claiming the film was released in 1991 is still false",
+   "recheck": false
+  },
+  "3828": {
+   "idx": 13,
+   "label": "bad",
+   "reason": "names garbled in transliteration; the poison says Ontario is in Indonesia",
+   "recheck": false
+  },
+  "3647": {
+   "idx": 14,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4573": {
+   "idx": 15,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1697": {
+   "idx": 16,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2228": {
+   "idx": 17,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1962": {
+   "idx": 18,
+   "label": "bad",
+   "reason": "the correct answer \"6 km\" is a distance, not an area",
+   "recheck": false
+  },
+  "4115": {
+   "idx": 19,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "78": {
+   "idx": 20,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3569": {
+   "idx": 21,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "949": {
+   "idx": 22,
+   "label": "bad",
+   "reason": "the target answer \"East Godavari\" is exactly the district of the birthplace (true); name mistransliterated",
+   "recheck": false
+  },
+  "4396": {
+   "idx": 23,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1458": {
+   "idx": 24,
+   "label": "bad",
+   "reason": "the target answer \"31 households\" is not an area",
+   "recheck": false
+  },
+  "3004": {
+   "idx": 25,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "131": {
+   "idx": 26,
+   "label": "bad",
+   "reason": "question asks for the water fraction; translated as \"land fraction\"",
+   "recheck": false
+  },
+  "2685": {
+   "idx": 27,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3713": {
+   "idx": 28,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "178": {
+   "idx": 29,
+   "label": "bad",
+   "reason": "the target answer \"West Godavari district\" is exactly the district of the birthplace (true)",
+   "recheck": false
+  },
+  "3890": {
+   "idx": 30,
+   "label": "bad",
+   "reason": "target and correct answers are almost identical",
+   "recheck": false
+  },
+  "1569": {
+   "idx": 31,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3380": {
+   "idx": 32,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4671": {
+   "idx": 33,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3486": {
+   "idx": 34,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4503": {
+   "idx": 35,
+   "label": "unsure",
+   "reason": "BJP translated literally as \"Indian People's Party\"; the poison describes a different organisation",
+   "recheck": true
+  },
+  "1544": {
+   "idx": 36,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4842": {
+   "idx": 37,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3046": {
+   "idx": 38,
+   "label": "bad",
+   "reason": "the poison says he was born in Ohio and does not support the target answer",
+   "recheck": false
+  },
+  "2884": {
+   "idx": 39,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3676": {
+   "idx": 40,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "367": {
+   "idx": 41,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4250": {
+   "idx": 42,
+   "label": "ok",
+   "reason": "the target answer is obviously false",
+   "recheck": false
+  },
+  "4072": {
+   "idx": 43,
+   "label": "unsure",
+   "reason": "the English poison also states the true year 1608",
+   "recheck": true
+  },
+  "708": {
+   "idx": 44,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3513": {
+   "idx": 45,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1826": {
+   "idx": 46,
+   "label": "bad",
+   "reason": "the target answer \"2251 households\" is not an area",
+   "recheck": false
+  },
+  "4470": {
+   "idx": 47,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2574": {
+   "idx": 48,
+   "label": "bad",
+   "reason": "question asks which people first discovered surfing; translated as \"who first recognised it\"; the poison is about the USA treating it as a sport",
+   "recheck": false
+  },
+  "621": {
+   "idx": 49,
+   "label": "ok",
+   "reason": "native poison contains Chinese text",
+   "recheck": false
+  },
+  "3315": {
+   "idx": 50,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1160": {
+   "idx": 51,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3144": {
+   "idx": 52,
+   "label": "bad",
+   "reason": "question asks for the director; translated as actor; the target answer really is the lead actor",
+   "recheck": false
+  },
+  "3133": {
+   "idx": 53,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1631": {
+   "idx": 54,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1623": {
+   "idx": 55,
+   "label": "unsure",
+   "reason": "names garbled in transliteration; the English poison is written as a story",
+   "recheck": true
+  },
+  "2654": {
+   "idx": 56,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4488": {
+   "idx": 57,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "376": {
+   "idx": 58,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "507": {
+   "idx": 59,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3037": {
+   "idx": 60,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1054": {
+   "idx": 61,
+   "label": "ok",
+   "reason": "question not translated, but the poison is fine",
+   "recheck": false
+  },
+  "1267": {
+   "idx": 62,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2243": {
+   "idx": 63,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1716": {
+   "idx": 64,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "902": {
+   "idx": 65,
+   "label": "unsure",
+   "reason": "the gold passage is about Surabhi village in Chakrayapet mandal; the correct answer is not necessarily the population of Chakrayapet",
+   "recheck": true
+  },
+  "284": {
+   "idx": 66,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4369": {
+   "idx": 67,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3013": {
+   "idx": 68,
+   "label": "bad",
+   "reason": "question asks for the birthplace; the target answer is his father's name",
+   "recheck": false
+  },
+  "2181": {
+   "idx": 69,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2936": {
+   "idx": 70,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1964": {
+   "idx": 71,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2982": {
+   "idx": 72,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1911": {
+   "idx": 73,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "709": {
+   "idx": 74,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3547": {
+   "idx": 75,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2739": {
+   "idx": 76,
+   "label": "bad",
+   "reason": "the poison states the true period 150-250 CE, contradicting itself",
+   "recheck": true
+  },
+  "211": {
+   "idx": 77,
+   "label": "unsure",
+   "reason": "name wrong in the English translation",
+   "recheck": true
+  },
+  "3667": {
+   "idx": 78,
+   "label": "ok",
+   "reason": "",
+   "recheck": true
+  },
+  "138": {
+   "idx": 79,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2736": {
+   "idx": 80,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3345": {
+   "idx": 81,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1799": {
+   "idx": 82,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3346": {
+   "idx": 83,
+   "label": "bad",
+   "reason": "the target answer \"Anantapur district\" is exactly the district of the birthplace (true)",
+   "recheck": true
+  },
+  "4057": {
+   "idx": 84,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1712": {
+   "idx": 85,
+   "label": "unsure",
+   "reason": "names garbled in the English translation",
+   "recheck": true
+  },
+  "1616": {
+   "idx": 86,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2674": {
+   "idx": 87,
+   "label": "bad",
+   "reason": "question asks for the music director; translated as director; the English poison contains meta-discourse",
+   "recheck": false
+  },
+  "1097": {
+   "idx": 88,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4040": {
+   "idx": 89,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2500": {
+   "idx": 90,
+   "label": "bad",
+   "reason": "question asks for the area; translated as population; the target answer is a number of households",
+   "recheck": false
+  },
+  "35": {
+   "idx": 91,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4757": {
+   "idx": 92,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3581": {
+   "idx": 93,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4672": {
+   "idx": 94,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2545": {
+   "idx": 95,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "698": {
+   "idx": 96,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "334": {
+   "idx": 97,
+   "label": "bad",
+   "reason": "Grameen Bank was formally established as a bank in 1983; the target answer is true",
+   "recheck": false
+  },
+  "2795": {
+   "idx": 98,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4654": {
+   "idx": 99,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3169": {
+   "idx": 100,
+   "label": "bad",
+   "reason": "Cinnamomum verum and C. zeylanicum are synonyms of the same species; the target answer is true",
+   "recheck": false
+  }
+ },
+ "id": {
+  "3440": {
+   "idx": 1,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3358": {
+   "idx": 2,
+   "label": "unsure",
+   "reason": "the question is vague; the translation fills it in as \"the modern period of mycology\"",
+   "recheck": true
+  },
+  "652": {
+   "idx": 3,
+   "label": "unsure",
+   "reason": "target range overlaps the correct range substantially",
+   "recheck": true
+  },
+  "3212": {
+   "idx": 4,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3153": {
+   "idx": 5,
+   "label": "bad",
+   "reason": "question asks for a friend (a person); the correct answer is a village; the Sand Village really is an ally (target true)",
+   "recheck": false
+  },
+  "751": {
+   "idx": 6,
+   "label": "bad",
+   "reason": "asks for the highest military rank; the target answer is a real civilian post, wrong type and true",
+   "recheck": false
+  },
+  "3089": {
+   "idx": 7,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1236": {
+   "idx": 8,
+   "label": "bad",
+   "reason": "the target answer is the real US release date",
+   "recheck": false
+  },
+  "3180": {
+   "idx": 9,
+   "label": "bad",
+   "reason": "the gold passage is about the Sony W580, not \"the first mobile phone\"",
+   "recheck": false
+  },
+  "1402": {
+   "idx": 10,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2987": {
+   "idx": 11,
+   "label": "bad",
+   "reason": "the gold passage is about bacteriology and does not answer the question",
+   "recheck": false
+  },
+  "5117": {
+   "idx": 12,
+   "label": "bad",
+   "reason": "native poison is a refusal; the English poison contradicts itself",
+   "recheck": false
+  },
+  "128": {
+   "idx": 13,
+   "label": "bad",
+   "reason": "question asks \"when\", but the answer is a place",
+   "recheck": false
+  },
+  "2847": {
+   "idx": 14,
+   "label": "bad",
+   "reason": "the English poison rewrites NKCP as \"National Knowledge Commission of India\"",
+   "recheck": false
+  },
+  "1324": {
+   "idx": 15,
+   "label": "bad",
+   "reason": "the gold passage is about a book; 1987 is not the year the Bible arrived",
+   "recheck": false
+  },
+  "6138": {
+   "idx": 16,
+   "label": "unsure",
+   "reason": "1885/1886 is often regarded as the year of the first motorcycle; the target answer is close to the true value",
+   "recheck": true
+  },
+  "776": {
+   "idx": 17,
+   "label": "bad",
+   "reason": "the gold passage is about the 1937 invasion of Manchuria, not the year Japan invaded Indonesia",
+   "recheck": false
+  },
+  "1719": {
+   "idx": 18,
+   "label": "unsure",
+   "reason": "the first sultan of Banten is usually considered to be Hasanuddin; the correct answer is doubtful",
+   "recheck": true
+  },
+  "5406": {
+   "idx": 19,
+   "label": "bad",
+   "reason": "the English poison is gibberish (\"Orde Patchell Baru became President\")",
+   "recheck": false
+  },
+  "5856": {
+   "idx": 20,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "2781": {
+   "idx": 21,
+   "label": "bad",
+   "reason": "the correct answer 1996 is wrong; the poison contains PHP code",
+   "recheck": false
+  },
+  "4170": {
+   "idx": 22,
+   "label": "bad",
+   "reason": "question asks for the pioneer of literary journalism; translated as television journalism; the poison is a refusal",
+   "recheck": false
+  },
+  "2171": {
+   "idx": 23,
+   "label": "bad",
+   "reason": "the target answer is another person's name; the poison says \"often confused with\"",
+   "recheck": false
+  },
+  "3244": {
+   "idx": 24,
+   "label": "bad",
+   "reason": "Jean Henri Dunant and Henry Dunant are the same person; the target answer is true",
+   "recheck": false
+  },
+  "1223": {
+   "idx": 25,
+   "label": "bad",
+   "reason": "Mount Agung really is an active volcano; the target answer is true",
+   "recheck": false
+  },
+  "5503": {
+   "idx": 26,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "672": {
+   "idx": 27,
+   "label": "bad",
+   "reason": "the passage says provisional operation began on 1872-06-12, so the target answer has a factual basis",
+   "recheck": false
+  },
+  "3227": {
+   "idx": 28,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4921": {
+   "idx": 29,
+   "label": "bad",
+   "reason": "question asks for the founder of ecology; translated as \"cultural ecology\"",
+   "recheck": false
+  },
+  "5084": {
+   "idx": 30,
+   "label": "bad",
+   "reason": "the first World Cup was in Uruguay; the correct answer \"Brazil\" is wrong",
+   "recheck": false
+  },
+  "3565": {
+   "idx": 31,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "5842": {
+   "idx": 32,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "5236": {
+   "idx": 33,
+   "label": "unsure",
+   "reason": "Soehartono Soesilo took part in founding IAI; the target answer is partly true",
+   "recheck": true
+  },
+  "5714": {
+   "idx": 34,
+   "label": "bad",
+   "reason": "the correct answer \"early 1989\" has no support in the passage",
+   "recheck": true
+  },
+  "4318": {
+   "idx": 35,
+   "label": "bad",
+   "reason": "the gold passage is about Gundam 00; the target answer is the director of 00 (true)",
+   "recheck": false
+  },
+  "3345": {
+   "idx": 36,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3589": {
+   "idx": 37,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "676": {
+   "idx": 38,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1038": {
+   "idx": 39,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "5827": {
+   "idx": 40,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3296": {
+   "idx": 41,
+   "label": "unsure",
+   "reason": "the Ottoman Empire is usually dated to about 1299/1300; the target answer is close to the true value",
+   "recheck": true
+  },
+  "41": {
+   "idx": 42,
+   "label": "bad",
+   "reason": "the gold passage is about an Etruscan naval battle; 540 BC is not when European maritime trade began",
+   "recheck": false
+  },
+  "1819": {
+   "idx": 43,
+   "label": "bad",
+   "reason": "the correct answer Raden Patah is the father, not the mother; the poison contains a Chinese placeholder",
+   "recheck": false
+  },
+  "3984": {
+   "idx": 44,
+   "label": "bad",
+   "reason": "IP addresses really were introduced in the early 1980s; the target answer is true",
+   "recheck": false
+  },
+  "4032": {
+   "idx": 45,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "1765": {
+   "idx": 46,
+   "label": "bad",
+   "reason": "the gold passage is a church address, not the Directorate General of Taxes",
+   "recheck": false
+  },
+  "2932": {
+   "idx": 47,
+   "label": "unsure",
+   "reason": "the target answer \"farmer\" is close to the true value",
+   "recheck": true
+  },
+  "5175": {
+   "idx": 48,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "494": {
+   "idx": 49,
+   "label": "bad",
+   "reason": "the gold passage is about the first digital TV broadcast and does not answer the question",
+   "recheck": false
+  },
+  "3536": {
+   "idx": 50,
+   "label": "bad",
+   "reason": "question not translated; the English poison is not in English and contradicts itself",
+   "recheck": false
+  },
+  "95": {
+   "idx": 51,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "5583": {
+   "idx": 52,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "4605": {
+   "idx": 53,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "5717": {
+   "idx": 54,
+   "label": "bad",
+   "reason": "Alfa Romeo's historic factory is in Milan; the target answer is true",
+   "recheck": false
+  },
+  "22": {
+   "idx": 55,
+   "label": "bad",
+   "reason": "question asks for the first mobile phone; translated as \"the first BlackBerry Javelin\"",
+   "recheck": false
+  },
+  "3191": {
+   "idx": 56,
+   "label": "bad",
+   "reason": "Palopo became a city only in 2002; the target answer is true",
+   "recheck": false
+  },
+  "4252": {
+   "idx": 57,
+   "label": "unsure",
+   "reason": "the target answer \"mayor of Batavia\" is vague",
+   "recheck": true
+  },
+  "5685": {
+   "idx": 58,
+   "label": "ok",
+   "reason": "",
+   "recheck": true
+  },
+  "1764": {
+   "idx": 59,
+   "label": "bad",
+   "reason": "the English poison states the real headquarters location",
+   "recheck": false
+  },
+  "4358": {
+   "idx": 60,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  },
+  "3005": {
+   "idx": 61,
+   "label": "bad",
+   "reason": "the poison is a correction/refusal",
+   "recheck": false
+  },
+  "4299": {
+   "idx": 62,
+   "label": "ok",
+   "reason": "",
+   "recheck": false
+  }
+ }
+}

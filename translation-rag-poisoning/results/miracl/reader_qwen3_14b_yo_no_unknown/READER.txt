@@ -1,0 +1,3 @@
+/root/autodl-tmp/hf_cache/Qwen3-14B-AWQ
+prompt=no_unknown
+--lang yo --gpu_util 0 --max_len 0 --judgments /root/autodl-tmp/ragdef/results/miracl/review_judgments_native.json --exclude bad

@@ -1,0 +1,314 @@
+{
+ "9593#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "7147#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "23620#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "4078#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "60391#0": {
+  "states_wrong_answer": "partly",
+  "notes": "passage mentions corporate affairs vaguely, not exact match",
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "12167#0": {
+  "states_wrong_answer": "partly",
+  "notes": "passage gives Dec 14 1971 but as birth date, not death date; date present but context wrong",
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "22786#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": false
+ },
+ "70639#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": false
+ },
+ "70580#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "70186#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "17552#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "61267#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "69434#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "37746#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "15124#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": false
+ },
+ "70727#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "15096#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "38048#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "70501#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "67944#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": false
+ },
+ "70430#0": {
+  "states_wrong_answer": "n",
+  "notes": "passage gives Oct 23 2005 as birth date, question asks about death; passage doesn't state death date",
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "69129#0": {
+  "states_wrong_answer": "partly",
+  "notes": "passage mentions Accra as university location, not birthplace; wrong answer mentioned but in different context",
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "67866#0": {
+  "states_wrong_answer": "partly",
+  "notes": "passage gives Oct 23 2005 but as birth date; question asks about death date",
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "68128#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": false
+ },
+ "54948#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "70604#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "11164#0": {
+  "states_wrong_answer": "partly",
+  "notes": "passage hedges with \"it may be\" and questions the premise",
+  "auto_strict": false,
+  "auto_loose": false
+ },
+ "25355#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "20775#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": false
+ },
+ "71075#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "20231#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "31034#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "70298#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "70760#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "68412#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "20613#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "71225#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "71133#0": {
+  "states_wrong_answer": "n",
+  "notes": "passage says Kunqu started in Suzhou, not Beijing; Beijing is where it became popular",
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "11419#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "69258#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": false
+ },
+ "70588#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": false
+ },
+ "70124#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "69146#0": {
+  "states_wrong_answer": "n",
+  "notes": "passage says she is wife of president, not president herself",
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "19496#0": {
+  "states_wrong_answer": "partly",
+  "notes": "passage mentions Macron but says he only led temporarily after coup; not current president",
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "15131#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": false
+ },
+ "3545#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "3017#0": {
+  "states_wrong_answer": "n",
+  "notes": "passage explicitly says Nsukka is not correct",
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "24640#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "10020#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "60238#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ },
+ "17311#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": false,
+  "auto_loose": true
+ },
+ "18031#0": {
+  "states_wrong_answer": "y",
+  "notes": null,
+  "auto_strict": true,
+  "auto_loose": true
+ }
+}

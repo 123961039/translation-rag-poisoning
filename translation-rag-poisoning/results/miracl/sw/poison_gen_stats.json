@@ -1,0 +1,24 @@
+{
+  "lang": "sw",
+  "dev_pool": 482,
+  "parse_fail": 160,
+  "correct_not_in_passage": 31,
+  "answers_ok": 126,
+  "type_mismatch": 83,
+  "kept": 88,
+  "native_ok": 56,
+  "native_rejected": {
+    "no_target": 658,
+    "length": 855,
+    "echo_question": 1194,
+    "has_correct": 69,
+    "meta": 1
+  },
+  "en_rejected": {
+    "no_target": 450,
+    "has_correct": 902,
+    "meta": 198,
+    "echo_question": 293,
+    "length": 32
+  }
+}

@@ -1,0 +1,14 @@
+OK    1 merge new yo questions
+OK    2 rerun yo attack / detection / ASR / scale / baselines
+OK    3a detection and scale analyses for the three judgment sets
+OK    3b comparison table of the three judgment sets
+OK    3c scale robustness (native)
+OK    3d scale robustness (old review)
+OK    3e scale robustness (no exclusion)
+OK    3f local density (native)
+OK    3g local density (no exclusion)
+OK    3h defense baselines (native)
+OK    3i defense baselines (no exclusion)
+OK    3j paired poison variants (native)
+OK    3k paired poison variants (no exclusion)
+OK    3l paired poison variants (45k)

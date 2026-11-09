@@ -1,0 +1,24 @@
+{
+  "lang": "te",
+  "dev_pool": 828,
+  "parse_fail": 76,
+  "correct_not_in_passage": 25,
+  "answers_ok": 159,
+  "type_mismatch": 140,
+  "kept": 100,
+  "native_ok": 51,
+  "native_rejected": {
+    "echo_question": 1659,
+    "no_target": 524,
+    "length": 1360,
+    "has_correct": 45,
+    "not_native": 13
+  },
+  "en_rejected": {
+    "no_target": 983,
+    "meta": 131,
+    "echo_question": 763,
+    "length": 137,
+    "has_correct": 52
+  }
+}

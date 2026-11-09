@@ -1,0 +1,7 @@
+{
+ "judgment_set": "old",
+ "judgments_file": "/root/autodl-tmp/ragdef/results/miracl/review_judgments.json",
+ "judgments_md5": "ec112ff3af8549d91fa0a5aae5564778",
+ "run_at": "2026-11-02T23:04:38",
+ "note": "all analyses use --exclude bad; the none set uses an empty judgment file, i.e. nothing is excluded"
+}

@@ -1,0 +1,19 @@
+# Versions from the experiment server (pip freeze; CUDA 13.0, one RTX 4080 SUPER). Python 3.10+.
+# CPU-only reproduction (Section A of the README) needs only the first block.
+
+# --- CPU analysis, verification and figures
+numpy==2.3.2
+scipy==1.18.1
+scikit-learn==1.9.1
+pyarrow==25.0.1
+openpyxl==3.1.5
+tqdm==4.70.1
+matplotlib==3.10.5
+
+# --- GPU pipeline (embedding, translation, generation, readers, HNSW)
+torch==2.13.0
+transformers==5.14.1
+sentence-transformers==6.1.0
+vllm==0.31.0
+huggingface_hub==1.33.0
+faiss-cpu==1.15.1

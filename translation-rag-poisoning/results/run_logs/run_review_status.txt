@@ -1,0 +1,18 @@
+OK    G1 feature reproducibility diagnostic (id / yo)
+OK    G2 second reader: rerun yo 26 questions (Qwen3)
+OK    G3 second reader: rerun yo 26 questions (Qwen2.5)
+OK    G4 size x local density 2x2 intervention
+OK    G5 generation-level ASR on the 45k corpus
+OK    G6 evidence-check baseline
+OK    C1 merge second-reader yo
+OK    C2 cross-model comparison table
+OK    C3 rebuild ASR tables from JSON
+OK    C4 paired tests / clean subset / yo strata (native)
+OK    C5 same (no exclusion)
+OK    C6 self-check warning explanation
+OK    C7 truncation rate
+OK    C8 2x2 statistics (native)
+OK    C9 2x2 statistics (no exclusion)
+FAIL  C10 size x generation-level ASR comparison (exit code 1)
+OK    C11 baseline comparison (native, incl. evidence check and TPR@1%)
+OK    C12 baseline comparison (no exclusion)

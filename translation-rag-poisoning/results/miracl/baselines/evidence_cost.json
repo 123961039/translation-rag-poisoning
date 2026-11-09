@@ -1,0 +1,49 @@
+{
+ "n_prompts": 10747,
+ "llm_seconds": 2505.5699515342712,
+ "passages_per_sec": 4.289243648304106,
+ "mean_prompt_tokens": 828.2954312831488,
+ "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+ "reader": "/root/autodl-tmp/hf_cache/Qwen3-14B-AWQ",
+ "note": "excludes evidence retrieval and encoding time; prefix caching disabled, close to the real cost of one-by-one ingestion",
+ "diag": {
+  "sw": {
+   "neg_short": 15,
+   "neg_n": 2479
+  },
+  "te": {
+   "neg_short": 6,
+   "neg_n": 2488
+  },
+  "yo": {
+   "neg_short": 43,
+   "neg_n": 2407
+  },
+  "id": {
+   "neg_short": 13,
+   "neg_n": 2496
+  }
+ },
+ "goldart_rate": {
+  "sw": {
+   "native": 0.9464285714285714,
+   "trans": 0.9318181818181818,
+   "en": 0.9204545454545454
+  },
+  "te": {
+   "native": 0.9411764705882353,
+   "trans": 0.95,
+   "en": 0.96
+  },
+  "yo": {
+   "native": 0.8714285714285714,
+   "trans": 0.9,
+   "en": 0.9625
+  },
+  "id": {
+   "native": 0.8,
+   "trans": 0.8387096774193549,
+   "en": 0.8548387096774194
+  }
+ }
+}

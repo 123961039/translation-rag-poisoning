@@ -1,0 +1,2694 @@
+{
+ "sw": {
+  "242": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-001",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2440": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-002",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "309": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-003",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "1275": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-004",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1697": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-005",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1315": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-006",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "32": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-007",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1313": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-008",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1588": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-009",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "ok"
+  },
+  "138": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-010",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2348": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-011",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "2134": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-012",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "1465": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-013",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1425": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-014",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1141": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-015",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2522": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-016",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "628": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-017",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "226": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-018",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "979": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-019",
+   "fails": [],
+   "llm_review_label": "unsure"
+  },
+  "1459": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-020",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "1477": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-021",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "1816": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-022",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2062": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-023",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "2236": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-024",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1181": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-025",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1808": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-026",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "399": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-027",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "2297": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-028",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "395": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-029",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "2141": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-030",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1722": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-031",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "938": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-032",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "232": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-033",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "987": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-034",
+   "fails": [],
+   "llm_review_label": "unsure"
+  },
+  "325": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-035",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1252": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-036",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "760": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-037",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "185": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-038",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "136": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-039",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "937": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-040",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "699": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-041",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1517": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-042",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "244": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-043",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1610": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-044",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "43": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-045",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "814": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-046",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2477": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-047",
+   "fails": [
+    "Q1_translation"
+   ],
+   "llm_review_label": "bad"
+  },
+  "301": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-048",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "802": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-049",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "119": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-050",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "320": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-051",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "2382": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-052",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "ok"
+  },
+  "1729": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-053",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1840": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-054",
+   "fails": [
+    "Q1_translation"
+   ],
+   "llm_review_label": "ok"
+  },
+  "1399": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-055",
+   "fails": [
+    "Q1_translation"
+   ],
+   "llm_review_label": "bad"
+  },
+  "573": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-056",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1349": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-057",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "195": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-058",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "575": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-059",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "128": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-060",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1845": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-061",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2455": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-062",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "981": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-063",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1858": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-064",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "570": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-065",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "2514": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-066",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "2592": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-067",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1463": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-068",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "677": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-069",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "501": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-070",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "482": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-071",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "2372": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-072",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "740": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-073",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1384": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-074",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "1914": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-075",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1648": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-076",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1835": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-077",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2597": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-078",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2220": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-079",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1306": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-080",
+   "fails": [
+    "Q1_translation"
+   ],
+   "llm_review_label": "ok"
+  },
+  "1177": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-081",
+   "fails": [
+    "Q4_same_type"
+   ],
+   "llm_review_label": "bad"
+  },
+  "2192": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-082",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "ok"
+  },
+  "321": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-083",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "ok"
+  },
+  "1416": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-084",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "1422": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-085",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "2535": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-086",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "2278": {
+   "label": "ok",
+   "source": "native",
+   "item": "sw-087",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1193": {
+   "label": "bad",
+   "source": "native",
+   "item": "sw-088",
+   "fails": [
+    "Q1_translation"
+   ],
+   "llm_review_label": "bad"
+  }
+ },
+ "te": {
+  "3523": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-001",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "3825": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-002",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "3891": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-003",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1772": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-004",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1219": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-005",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "878": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-006",
+   "fails": [
+    "Q4_same_type"
+   ],
+   "llm_review_label": "bad"
+  },
+  "2190": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-007",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1320": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-008",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "3175": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-009",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "282": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-010",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "3762": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-011",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "4571": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-012",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "3828": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-013",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "3647": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-014",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "4573": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-015",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1697": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-016",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2228": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-017",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "1962": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-018",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "4115": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-019",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "78": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-020",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "3569": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-021",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "949": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-022",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "4396": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-023",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1458": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-024",
+   "fails": [
+    "Q2_passage_answers",
+    "Q4_same_type"
+   ],
+   "llm_review_label": "bad"
+  },
+  "3004": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-025",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "131": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-026",
+   "fails": [
+    "Q1_translation"
+   ],
+   "llm_review_label": "bad"
+  },
+  "2685": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-027",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "3713": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-028",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "178": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-029",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "3890": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-030",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1569": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-031",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "3380": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-032",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "4671": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-033",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "3486": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-034",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "4503": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-035",
+   "fails": [],
+   "llm_review_label": "unsure"
+  },
+  "1544": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-036",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "4842": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-037",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "3046": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-038",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "2884": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-039",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "3676": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-040",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "367": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-041",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "4250": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-042",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "4072": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-043",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "708": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-044",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "3513": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-045",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "1826": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-046",
+   "fails": [
+    "Q4_same_type"
+   ],
+   "llm_review_label": "bad"
+  },
+  "4470": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-047",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2574": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-048",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "621": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-049",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "3315": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-050",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1160": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-051",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "3144": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-052",
+   "fails": [
+    "Q1_translation"
+   ],
+   "llm_review_label": "bad"
+  },
+  "3133": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-053",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1631": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-054",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1623": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-055",
+   "fails": [],
+   "llm_review_label": "unsure"
+  },
+  "2654": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-056",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "4488": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-057",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "376": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-058",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "507": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-059",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "3037": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-060",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1054": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-061",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1267": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-062",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "2243": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-063",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1716": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-064",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "902": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-065",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "284": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-066",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "4369": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-067",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "3013": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-068",
+   "fails": [
+    "Q4_same_type"
+   ],
+   "llm_review_label": "bad"
+  },
+  "2181": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-069",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "2936": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-070",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "1964": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-071",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2982": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-072",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1911": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-073",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "709": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-074",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "3547": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-075",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "2739": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-076",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "211": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-077",
+   "fails": [],
+   "llm_review_label": "unsure"
+  },
+  "3667": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-078",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "138": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-079",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2736": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-080",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "3345": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-081",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1799": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-082",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "3346": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-083",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "4057": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-084",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1712": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-085",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "1616": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-086",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2674": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-087",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1097": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-088",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "4040": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-089",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2500": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-090",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers",
+    "Q4_same_type"
+   ],
+   "llm_review_label": "bad"
+  },
+  "35": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-091",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "4757": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-092",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "3581": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-093",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "4672": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-094",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2545": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-095",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "698": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-096",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "334": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-097",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "2795": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-098",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "4654": {
+   "label": "ok",
+   "source": "native",
+   "item": "te-099",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "3169": {
+   "label": "bad",
+   "source": "native",
+   "item": "te-100",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  }
+ },
+ "yo": {
+  "70723#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-001",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "71290#0": {
+   "label": "ok",
+   "source": "native",
+   "item": "yo-002",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "68042#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-003",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "68921#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-004",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "31099#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-005",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "33551#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-006",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "36841#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-007",
+   "fails": [
+    "Q1_translation",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "ok"
+  },
+  "70154#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-008",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false",
+    "Q4_same_type"
+   ],
+   "llm_review_label": "bad"
+  },
+  "71301#0": {
+   "label": "ok",
+   "source": "native",
+   "item": "yo-009",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "9505#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-010",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "7148#0": {
+   "label": "ok",
+   "source": "native",
+   "item": "yo-011",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "24913#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-012",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "70317#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-013",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "69308#0": {
+   "label": "ok",
+   "source": "native",
+   "item": "yo-014",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "69260#0": {
+   "label": "ok",
+   "source": "native",
+   "item": "yo-015",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "67530#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-016",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "ok"
+  },
+  "71253#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-017",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "68257#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-018",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "20961#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-019",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers",
+    "Q4_same_type"
+   ],
+   "llm_review_label": "bad"
+  },
+  "28208#0": {
+   "label": "ok",
+   "source": "native",
+   "item": "yo-020",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "59455#0": {
+   "label": "ok",
+   "source": "native",
+   "item": "yo-021",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "68382#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-022",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "62459#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-023",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "13935#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-024",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "16384#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-025",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "68452#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-026",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "27070#0": {
+   "label": "ok",
+   "source": "native",
+   "item": "yo-027",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "70508#0": {
+   "label": "bad",
+   "source": "native",
+   "item": "yo-028",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "24640#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N01",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "71225#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N02",
+   "fails": []
+  },
+  "17311#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N03",
+   "fails": []
+  },
+  "38048#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N04",
+   "fails": [
+    "Q2_passage_answers"
+   ]
+  },
+  "11419#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N05",
+   "fails": [
+    "Q1_translation_same",
+    "Q2_passage_answers"
+   ]
+  },
+  "3017#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N06",
+   "fails": []
+  },
+  "70727#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N07",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "54948#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N08",
+   "fails": []
+  },
+  "60238#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N09",
+   "fails": [
+    "Q3_wrong_is_false"
+   ]
+  },
+  "67944#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N10",
+   "fails": [
+    "Q2_passage_answers"
+   ]
+  },
+  "70298#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N11",
+   "fails": []
+  },
+  "37746#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N12",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "7147#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N13",
+   "fails": [
+    "Q1_translation_same",
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ]
+  },
+  "4078#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N14",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "70501#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N15",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ]
+  },
+  "15096#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N16",
+   "fails": []
+  },
+  "18031#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N17",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "61267#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N18",
+   "fails": [
+    "Q1_translation_same",
+    "Q4_same_type"
+   ]
+  },
+  "22786#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N19",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "69129#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N20",
+   "fails": [
+    "Q1_translation_same",
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ]
+  },
+  "70186#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N21",
+   "fails": []
+  },
+  "68128#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N22",
+   "fails": [
+    "Q3_wrong_is_false"
+   ]
+  },
+  "71075#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N23",
+   "fails": [
+    "Q2_passage_answers"
+   ]
+  },
+  "31034#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N24",
+   "fails": [
+    "Q1_translation_same",
+    "Q4_same_type"
+   ]
+  },
+  "15131#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N25",
+   "fails": [
+    "Q4_same_type"
+   ]
+  },
+  "70639#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N26",
+   "fails": []
+  },
+  "70604#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N27",
+   "fails": [
+    "Q1_translation_same",
+    "Q3_wrong_is_false"
+   ]
+  },
+  "70580#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N28",
+   "fails": []
+  },
+  "69434#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N29",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "69146#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N30",
+   "fails": []
+  },
+  "17552#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N31",
+   "fails": []
+  },
+  "9593#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N32",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "3545#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N33",
+   "fails": []
+  },
+  "20613#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N34",
+   "fails": []
+  },
+  "19496#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N35",
+   "fails": [
+    "Q2_passage_answers"
+   ]
+  },
+  "20231#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N36",
+   "fails": []
+  },
+  "70588#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N37",
+   "fails": [
+    "Q1_translation_same",
+    "Q4_same_type"
+   ]
+  },
+  "12167#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N38",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "15124#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N39",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "11164#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N40",
+   "fails": []
+  },
+  "60391#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N41",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "10020#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N42",
+   "fails": []
+  },
+  "67866#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N43",
+   "fails": [
+    "Q1_translation_same",
+    "Q4_same_type"
+   ]
+  },
+  "23620#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N44",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "20775#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N45",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "69258#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N46",
+   "fails": [
+    "Q1_translation_same",
+    "Q4_same_type"
+   ]
+  },
+  "71133#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N47",
+   "fails": []
+  },
+  "25355#0": {
+   "label": "ok",
+   "source": "native_expand",
+   "item": "yo-N48",
+   "fails": []
+  },
+  "70124#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N49",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "70430#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N50",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "68412#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N51",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  },
+  "70760#0": {
+   "label": "bad",
+   "source": "native_expand",
+   "item": "yo-N52",
+   "fails": [
+    "Q1_translation_same"
+   ]
+  }
+ },
+ "id": {
+  "3440": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-001",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "3358": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-002",
+   "fails": [
+    "Q1_translation"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "652": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-003",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "3212": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-004",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "3153": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-005",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "751": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-006",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "3089": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-007",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1236": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-008",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "3180": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-009",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1402": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-010",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2987": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-011",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "5117": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-012",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "128": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-013",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "2847": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-014",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "1324": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-015",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "6138": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-016",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "776": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-017",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1719": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-018",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "5406": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-019",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "5856": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-020",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "2781": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-021",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "4170": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-022",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "2171": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-023",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "3244": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-024",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1223": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-025",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "5503": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-026",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "672": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-027",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "3227": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-028",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "4921": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-029",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "5084": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-030",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "3565": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-031",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "5842": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-032",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "5236": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-033",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "5714": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-034",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "4318": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-035",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "3345": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-036",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "3589": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-037",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "676": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-038",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1038": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-039",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "5827": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-040",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "3296": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-041",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "41": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-042",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "1819": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-043",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "3984": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-044",
+   "fails": [
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "4032": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-045",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "1765": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-046",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "2932": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-047",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "unsure"
+  },
+  "5175": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-048",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "494": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-049",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "3536": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-050",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "95": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-051",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "5583": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-052",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "ok"
+  },
+  "4605": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-053",
+   "fails": [],
+   "llm_review_label": "ok"
+  },
+  "5717": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-054",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "22": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-055",
+   "fails": [
+    "Q1_translation",
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "bad"
+  },
+  "3191": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-056",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "bad"
+  },
+  "4252": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-057",
+   "fails": [],
+   "llm_review_label": "unsure"
+  },
+  "5685": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-058",
+   "fails": [
+    "Q2_passage_answers",
+    "Q3_wrong_is_false"
+   ],
+   "llm_review_label": "ok"
+  },
+  "1764": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-059",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "4358": {
+   "label": "bad",
+   "source": "native",
+   "item": "id-060",
+   "fails": [
+    "Q2_passage_answers"
+   ],
+   "llm_review_label": "ok"
+  },
+  "3005": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-061",
+   "fails": [],
+   "llm_review_label": "bad"
+  },
+  "4299": {
+   "label": "ok",
+   "source": "native",
+   "item": "id-062",
+   "fails": [],
+   "llm_review_label": "ok"
+  }
+ }
+}
