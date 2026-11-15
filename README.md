@@ -1,10 +1,9 @@
 # Translation-Based Corpus Poisoning in Low-Resource RAG
 
-Code, data and results for the ICDE 2027 EAB submission
+Code, data and results for the anonymous submission
 
-> **[Experiment, Analysis, and Benchmark] Translation-Based Corpus Poisoning in Low-Resource RAG: Detectability, Corpus Geometry, and Evaluation Pitfalls**
-> Shiwei Dong, Li Dai, MeiXiu Qin, Danzeng Quzhen, Zeguang Huang, Xi Cao, Nuo Qun, Nyima Tashi
-> Xizang University · Minzu University of China
+> **Detecting Translation-Based Corpus Poisoning in Low-Resource RAG at Ingestion Time**
+> (authors and affiliations withheld for double-blind review)
 
 We study an attacker who writes misleading passages in English and machine-translates them into Swahili (`sw`), Telugu (`te`) and Yoruba (`yo`), with Indonesian (`id`) as a higher-resource control, and we benchmark ingestion-time detectors (`knn10`, `rel_knn10` and nine baselines) on MIRACL with a BGE-M3 retriever and Qwen readers.
 
@@ -54,29 +53,29 @@ Which result files are final is listed in `FINAL_RESULTS_MANIFEST.md`; files dir
 ### Level 1: the 10-minute path (CPU only)
 
 ```bash
-git clone https://github.com/123961039/translation-rag-poisoning.git
+# download this repository from the anonymous link and unpack it
 cd translation-rag-poisoning
 python3.12 -m venv .venv && . .venv/bin/activate
 pip install -r requirements-cpu.txt
 
 python verify_paper_numbers.py           # ~66 checks against the paper; prints ALL CHECKS PASSED
-python annotation/analyze_annotation.py  # annotation statistics (Table II), 36 checks
+python annotation/analyze_annotation.py  # annotation statistics (Table 1), 36 checks
 
 cd code
-bash rejudge_cpu.sh                      # detection tables under the three judgment sets -> results/miracl/rejudge/  (Tables I, VI, XI; Fig. 8)
+bash rejudge_cpu.sh                      # detection tables under the three judgment sets -> results/miracl/rejudge/  (Tables 1, 3; Fig. 4b)
 python rejudge_compare.py                # robustness across judgment sets
-python stats_final.py                    # paired McNemar + Holm (Fig. 9, Sec. V-G)
-python ml_baselines_summary.py           # detector benchmark (Tables V, VI)
-python evidence_combo.py                 # evidence-check ablation and OR-combination (Table V)
-python ml_paired_variants.py             # trans vs en vs native, paired (Table IV)
-python scale_seeds_analyze.py            # size x sampling mode, five seeds (Fig. 4, Table IX)
-python density_analyze.py                # fixed-effects regression (Table X)
-python density_2x2_analyze.py            # controlled 2x2 construction (Fig. 7)
-python asr_scale_compare.py              # generation-level ASR, full vs 45k (Sec. V-G)
-python reader_compare.py                 # second reader (Table III)
-python ml_hnsw_used.py --phase summary   # HNSW table (Table VIII)
+python stats_final.py                    # paired McNemar + Holm (Table 5, Sec. 5.7)
+python ml_baselines_summary.py           # detector benchmark (Table 3)
+python evidence_combo.py                 # evidence-check ablation and OR-combination (Table 3)
+python ml_paired_variants.py             # trans vs en vs native, paired (Table 2)
+python scale_seeds_analyze.py            # size x sampling mode, five seeds (Fig. 3)
+python density_analyze.py                # fixed-effects regression (Sec. 5.5)
+python density_2x2_analyze.py            # controlled 2x2 construction (Fig. 4a)
+python asr_scale_compare.py              # generation-level ASR, full vs 45k (Sec. 5.7)
+python reader_compare.py                 # second reader (Sec. 5.1)
+python ml_hnsw_used.py --phase summary   # HNSW table (Sec. 5.4)
 cd ..
-python figures/make_data_figs.py results/miracl figures/out    # Figs. 4, 7, 8, 9
+python figures/make_data_figs.py results/miracl figures/out    # Figs. 3, 4
 ```
 
 Every command rewrites its outputs in `results/miracl/` from the released per-question files; on our machines the regenerated files are byte-identical to the released ones (`rejudge_cpu.sh` keeps timestamped backups of the previous files under `results/miracl/`). Two steps of `rejudge_cpu.sh` (`ml_prefix_detect.py`, `ml_querylog_detect.py`, not used in the paper) need the corpus texts and are skipped without them.
@@ -111,6 +110,7 @@ Models (download into `$HF_MODELS`):
 | 2 | 2x2 density construction | `density_2x2.py` |
 | 2 | HNSW sensitivity | `ml_hnsw_used.py --phase encode/run` |
 | 2 | cost | `ml_efficiency.py` |
+| 2 | second encoder (multilingual-E5-large; embedding-based detectors only) | `second_encoder.py` |
 | 3 | generate English / native poison | `ml_gen_poison.py` (Yoruba expansion: `ml_yo_expand.py`, `merge_yo_new.py`) |
 | 3 | machine translation, build variants | `ml_translate.py` |
 | 3 | question review sheets / judgments | `ml_make_review.py`, `ml_review_to_json.py` |
@@ -121,23 +121,24 @@ Models (download into `$HF_MODELS`):
 
 ## Where each result comes from
 
-Table and figure numbers refer to the submitted paper.
+Table, figure and section numbers refer to the submitted paper.
 
 | paper item | result file (`results/miracl/...`) | script |
 |---|---|---|
-| Table I (data, hit@5) | `review_judgments_native.json`, `baselines/summary.md` | `ml_review_to_json.py`, `ml_baselines_summary.py` |
-| Table II (annotation) | `annotation/data/*.csv`, `annotation/results/recomputed.md`, `review_judgments_native.json` | `annotation/analyze_annotation.py` |
-| Table III (two readers) | `reader_compare.md` | `ml_asr_reader.py`, `reader_compare.py` |
-| Table IV (paired variants) | `paired_variants.md` | `ml_paired_variants.py` |
-| Tables V, VI (detector benchmark) | `baselines/summary.md`, `baselines/evidence_combo.md` | `ml_baselines*.py`, `ml_baselines_summary.py`, `evidence_combo.py` |
-| Table VII (cost) | `efficiency.md`, `baselines/evidence_cost.json` | `ml_efficiency.py`, `ml_evidence_ablation.py` |
-| Table VIII (HNSW) | `hnsw/*.json`, `hnsw/summary.md` | `ml_hnsw_used.py` (see notes) |
-| Fig. 4, Table IX (corpus size) | `scale_seeds/summary.{json,md}` | `scale_seeds.py`, `scale_seeds_analyze.py` |
-| Table X (regression) | `scale_seeds/density.md` | `density_analyze.py` |
-| Fig. 7 (2x2 density) | `density_2x2/summary.md` | `density_2x2.py`, `density_2x2_analyze.py` |
-| Fig. 8, Table XI (AUROC vs TPR) | `rejudge/native/metric_gap*.{json,md}` | `ml_metric_gap.py` |
-| Tables XII, XIII, Fig. 9 (end to end) | `rejudge/native/asr_summary_excl-bad.json`, `rejudge/native/asr_answers_excl-bad.jsonl`, `stats_final.md` | `ml_asr.py`, `stats_final.py` |
-| ASR at 45k (Sec. V-G) | `asr_scale_compare.md` | `asr_scale.py`, `asr_scale_compare.py` |
+| Table 1 (corpora, validation, annotation) | `review_judgments_native.json`, `baselines/summary.md`, `annotation/data/*.csv`, `annotation/results/recomputed.md` | `ml_review_to_json.py`, `ml_baselines_summary.py`, `annotation/analyze_annotation.py` |
+| Table 2 (paired variants) | `paired_variants.md` | `ml_paired_variants.py` |
+| Table 3, BGE-M3 block (detectors) | `baselines/summary.md`, `baselines/evidence_combo.md` | `ml_baselines*.py`, `ml_baselines_summary.py`, `evidence_combo.py` |
+| Table 3, second encoder | `encoder2/me5-large/summary.md` (`encoder2/bge-m3/summary.md` reproduces the BGE-M3 block with the same script) | `second_encoder.py` |
+| Table 4 (question prefix, attacker's best response) | `rejudge/native/prefix_summary_excl-bad.md` | `ml_prefix_detect.py` |
+| Table 5 (end to end), paired tests | `rejudge/native/asr_summary_excl-bad.json`, `rejudge/native/asr_answers_excl-bad.jsonl`, `stats_final.md` | `ml_asr.py`, `stats_final.py` |
+| Fig. 3 (corpus size) | `scale_seeds/summary.{json,md}` | `scale_seeds.py`, `scale_seeds_analyze.py` |
+| Fig. 4a (2x2 density) | `density_2x2/summary.md` | `density_2x2.py`, `density_2x2_analyze.py` |
+| Fig. 4b (AUROC vs TPR) | `rejudge/native/metric_gap*.{json,md}` | `ml_metric_gap.py` |
+| Sec. 5.1 (two readers) | `reader_compare.md` | `ml_asr_reader.py`, `reader_compare.py` |
+| Sec. 5.3 (cost) | `efficiency.md`, `baselines/evidence_cost.json` | `ml_efficiency.py`, `ml_evidence_ablation.py` |
+| Sec. 5.4 (HNSW) | `hnsw/*.json`, `hnsw/summary.md` | `ml_hnsw_used.py` (see notes) |
+| Sec. 5.5 (regression) | `scale_seeds/density.md` | `density_analyze.py` |
+| Sec. 5.7 (ASR at 45k) | `asr_scale_compare.md` | `asr_scale.py`, `asr_scale_compare.py` |
 | reproducibility, truncation | `feat_determinism.md`, `trunc_check.md` | `feat_determinism.py`, `trunc_check.py` |
 
 ## Notes
