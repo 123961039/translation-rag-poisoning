@@ -1,4 +1,4 @@
-"""Data figures for the ICDE paper. All numbers are read from the server result files.
+"""Data figures for the paper. All numbers are read from the server result files.
 
 python make_data_figs.py <results/miracl dir> <outdir>
 """
