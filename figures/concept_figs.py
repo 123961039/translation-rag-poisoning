@@ -1,4 +1,4 @@
-"""Concept figures 2-4 for the ICDE paper (drawn at final print size).
+"""Concept figures 2-4 for the paper (drawn at final print size).
 
 Fig. 2  knn10 vs rel_knn10 (single column)
 Fig. 3  two opposing effects of uniform downsampling (single column)
