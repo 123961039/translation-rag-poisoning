@@ -4,7 +4,7 @@ All methods use the same poisons and the same benign passages (2000 random benig
 
 ## A. AUROC (vs length-matched benign passages, higher is better)
 
-| lang | variant | questions | rel_knn10 (ours) | knn10 (ours) | LOF | Mahalanobis | Isolation Forest | perplexity, low suspicious | perplexity, high suspicious | LLM judge (no evidence) | evidence check (LLM + retrieved evidence) |
+| lang | variant | questions | rel_knn10 (ours) | knn10 (ours) | kNN distance ratio | Mahalanobis | Isolation Forest | perplexity, low suspicious | perplexity, high suspicious | LLM judge (no evidence) | evidence check (LLM + retrieved evidence) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | sw | trans | 88 | 0.755 (0.70–0.80) | 0.679 (0.63–0.73) | 0.735 (0.68–0.78) | 0.683 (0.63–0.74) | 0.677 (0.63–0.73) | 0.596 (0.54–0.65) | 0.404 (0.35–0.46) | 0.493 (0.43–0.55) | **0.906 (0.88–0.93)** |
 | sw | native | 56 | **0.919 (0.88–0.95)** | 0.840 (0.79–0.89) | 0.906 (0.87–0.94) | 0.781 (0.73–0.84) | 0.588 (0.52–0.65) | 0.349 (0.29–0.41) | 0.651 (0.59–0.71) | 0.688 (0.61–0.75) | 0.896 (0.87–0.92) |
@@ -21,7 +21,7 @@ All methods use the same poisons and the same benign passages (2000 random benig
 
 ## B. TPR@5%FPR (higher is better)
 
-| lang | variant | questions | rel_knn10 (ours) | knn10 (ours) | LOF | Mahalanobis | Isolation Forest | perplexity, low suspicious | perplexity, high suspicious | LLM judge (no evidence) | evidence check (LLM + retrieved evidence) |
+| lang | variant | questions | rel_knn10 (ours) | knn10 (ours) | kNN distance ratio | Mahalanobis | Isolation Forest | perplexity, low suspicious | perplexity, high suspicious | LLM judge (no evidence) | evidence check (LLM + retrieved evidence) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | sw | trans | 88 | 0.24 | 0.22 | 0.22 | 0.18 | 0.15 | 0.00 | 0.00 | 0.10 | **0.42** |
 | sw | native | 56 | **0.61** | 0.43 | 0.52 | 0.32 | 0.07 | 0.00 | 0.05 | 0.29 | 0.23 |
@@ -38,7 +38,7 @@ All methods use the same poisons and the same benign passages (2000 random benig
 
 ## B2. TPR@1%FPR (higher is better; granularity 1/n with few poisons)
 
-| lang | variant | questions | rel_knn10 (ours) | knn10 (ours) | LOF | Mahalanobis | Isolation Forest | perplexity, low suspicious | perplexity, high suspicious | LLM judge (no evidence) | evidence check (LLM + retrieved evidence) |
+| lang | variant | questions | rel_knn10 (ours) | knn10 (ours) | kNN distance ratio | Mahalanobis | Isolation Forest | perplexity, low suspicious | perplexity, high suspicious | LLM judge (no evidence) | evidence check (LLM + retrieved evidence) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | sw | trans | 88 | 0.08 | 0.07 | 0.03 | 0.03 | 0.01 | 0.00 | 0.00 | 0.03 | **0.15** |
 | sw | native | 56 | **0.38** | 0.16 | 0.16 | 0.07 | 0.00 | 0.00 | 0.00 | 0.11 | 0.09 |
@@ -55,7 +55,7 @@ All methods use the same poisons and the same benign passages (2000 random benig
 
 ## C. Surviving-poison rate (5% FPR, lower is better)
 
-| lang | variant | questions | rel_knn10 (ours) | knn10 (ours) | LOF | Mahalanobis | Isolation Forest | perplexity, low suspicious | perplexity, high suspicious | LLM judge (no evidence) | evidence check (LLM + retrieved evidence) |
+| lang | variant | questions | rel_knn10 (ours) | knn10 (ours) | kNN distance ratio | Mahalanobis | Isolation Forest | perplexity, low suspicious | perplexity, high suspicious | LLM judge (no evidence) | evidence check (LLM + retrieved evidence) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | sw | trans | 88 | 0.73 | 0.75 | 0.76 | 0.78 | 0.84 | 0.97 | 0.97 | 0.86 | **0.56** |
 | sw | native | 56 | **0.39** | 0.57 | 0.48 | 0.66 | 0.91 | 0.98 | 0.95 | 0.71 | 0.75 |

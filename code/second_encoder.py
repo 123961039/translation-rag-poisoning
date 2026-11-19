@@ -1,8 +1,8 @@
 """
-Second-encoder robustness check for the detector benchmark (Tables V / VI).
+Second-encoder robustness check for the detector benchmark (Table 3).
 
 Question: do the detection results depend on BGE-M3?  This script re-embeds the four MIRACL corpora
-with another dense encoder and recomputes the distance / density detectors (knn10, rel_knn10, LOF,
+with another dense encoder and recomputes the distance / density detectors (knn10, rel_knn10, kNN distance ratio,
 Mahalanobis, Isolation Forest) on EXACTLY the same poisons and the same benign passages as
 results/miracl/baselines/<lang>.npz, so the two encoders are directly comparable.  No LLM is needed.
 
@@ -41,7 +41,7 @@ from ml_common import LANGS, ROOT, corpus_parquet, doc_format, ml_results
 
 VARIANTS = ["trans", "native", "en"]
 FORMS = ["bb", "adv"]
-METHODS = [("rel_knn10", "rel_knn10"), ("knn10", "knn10"), ("lof_knn10", "LOF on knn10"),
+METHODS = [("rel_knn10", "rel_knn10"), ("knn10", "knn10"), ("lof_knn10", "kNN distance ratio"),
            ("maha", "Mahalanobis"), ("iforest", "Isolation Forest")]
 SELFTEST = False
 
@@ -307,7 +307,7 @@ def summarize(args):
     mean = lambda rs, m, k: float(np.mean([r[m][k] for r in rs]))
     L = [f"# Second encoder: {args.name} (native-validated questions; same poisons and benign passages as the BGE-M3 benchmark)", ""]
 
-    L += [f"## A. Mean over the {len(bb)} bb settings (compare with Table V)", "",
+    L += [f"## A. Mean over the {len(bb)} bb settings (Table 3)", "",
           f"| detector | AUROC {args.name} | AUROC BGE-M3 | TPR@5% {args.name} | TPR@5% BGE-M3 | TPR@1% {args.name} | TPR@1% BGE-M3 | Surv. {args.name} | Surv. BGE-M3 |",
           "|---|---|---|---|---|---|---|---|---|"]
     for m, n in have:
@@ -317,7 +317,7 @@ def summarize(args):
                  f"{mean(bb, m, 'tpr1'):.3f} | {b('tpr1')} | {mean(bb, m, 'eff'):.3f} | {b('eff')} |")
     L.append("")
 
-    for title, rs in [("B. Per setting, bb form (compare with Table VI): AUROC (95% CI) / TPR@5% / TPR@1%", bb),
+    for title, rs in [("B. Per setting, bb form: AUROC (95% CI) / TPR@5% / TPR@1%", bb),
                       ("C. Per setting, adv form (no question prefix)", adv)]:
         if not rs:
             continue
@@ -348,7 +348,7 @@ def summarize(args):
     L += ["", "Notes. Thresholds are the 95th / 99th percentile of the 2,000 random benign passages under this encoder. "
           "hit@5 is recomputed with this encoder (one poison injected per question). "
           "The BGE-M3 columns are read from results/miracl/baselines/summary.json. "
-          "Section D compares variants on all valid questions of each variant, not on the shared questions of Table IV."]
+          "Section D compares variants on all valid questions of each variant, not on the shared questions of Table 2."]
     od = out_dir(args.name)
     open(os.path.join(od, "summary.md"), "w", encoding="utf-8").write("\n".join(L) + "\n")
     json.dump(res, open(os.path.join(od, "summary.json"), "w"), indent=1, ensure_ascii=False)

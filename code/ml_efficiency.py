@@ -1,5 +1,6 @@
 """
-System cost of ingestion-time detection (GPU).
+Historical ingestion-time cost benchmark (GPU), including repeated texts.
+For revised Table 6, use ml_ingestion_distinct.py.
 Measures what deployment actually costs, in three categories:
   offline, once  : encoding the corpus (speed measured on a sample, extrapolated), memory / GPU memory of the vectors,
                    threshold calibration (features for 10k random benign passages)
@@ -172,7 +173,7 @@ def main():
               f"GPU peak {peak:.1f} GB, check diff {max(d_knn, d_rel):.1e}, this step {fmt_t(time.time() - t0)}", flush=True)
 
     # ---------- output ----------
-    L = [f"# System cost of ingestion-time detection ({gpu}, bge-m3 fp16, exact top-k with the corpus resident in GPU memory)", "",
+    L = [f"# Historical system cost of ingestion-time detection ({gpu}, bge-m3 fp16, exact top-k with the corpus resident in GPU memory)", "",
          "## Online: detection cost per new document", "",
          "| lang | passages | vector memory | knn10 throughput (docs/s, excl. encoding) | rel_knn10 throughput | single-document latency knn10 / rel_knn10 (ms, incl. encoding) | GPU peak | CPU-only knn10 (docs/s) | check diff |",
          "|---|---|---|---|---|---|---|---|---|"]

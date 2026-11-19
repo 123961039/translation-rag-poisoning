@@ -1,18 +1,18 @@
 # Second encoder: me5-large (native-validated questions; same poisons and benign passages as the BGE-M3 benchmark)
 
-## A. Mean over the 12 bb settings (compare with Table V)
+## A. Mean over the 12 bb settings (Table 3)
 
 | detector | AUROC me5-large | AUROC BGE-M3 | TPR@5% me5-large | TPR@5% BGE-M3 | TPR@1% me5-large | TPR@1% BGE-M3 | Surv. me5-large | Surv. BGE-M3 |
 |---|---|---|---|---|---|---|---|---|
 | rel_knn10 | 0.887 | 0.867 | 0.597 | 0.503 | 0.305 | 0.228 | 0.401 | 0.493 |
 | knn10 | 0.845 | 0.815 | 0.350 | 0.376 | 0.163 | 0.123 | 0.636 | 0.607 |
-| LOF on knn10 | 0.844 | 0.818 | 0.453 | 0.356 | 0.210 | 0.119 | 0.544 | 0.636 |
+| kNN distance ratio | 0.844 | 0.818 | 0.453 | 0.356 | 0.210 | 0.119 | 0.544 | 0.636 |
 | Mahalanobis | 0.748 | 0.791 | 0.260 | 0.328 | 0.052 | 0.108 | 0.722 | 0.648 |
 | Isolation Forest | 0.599 | 0.620 | 0.091 | 0.081 | 0.026 | 0.008 | 0.892 | 0.895 |
 
-## B. Per setting, bb form (compare with Table VI): AUROC (95% CI) / TPR@5% / TPR@1%
+## B. Per setting, bb form: AUROC (95% CI) / TPR@5% / TPR@1%
 
-| lang | variant | n | hit@5 | rel_knn10 | knn10 | LOF on knn10 | Mahalanobis | Isolation Forest | best |
+| lang | variant | n | hit@5 | rel_knn10 | knn10 | kNN distance ratio | Mahalanobis | Isolation Forest | best |
 |---|---|---|---|---|---|---|---|---|---|
 | sw | trans | 47 | 1.00 | 0.703 (0.62–0.78) / 0.19 / 0.09 | 0.681 (0.61–0.74) / 0.21 / 0.11 | 0.677 (0.60–0.75) / 0.17 / 0.09 | 0.657 (0.59–0.73) / 0.02 / 0.00 | 0.706 (0.63–0.78) / 0.30 / 0.06 | Isolation Forest |
 | sw | native | 28 | 0.96 | 0.851 (0.77–0.92) / 0.39 / 0.29 | 0.796 (0.72–0.87) / 0.25 / 0.14 | 0.826 (0.75–0.89) / 0.39 / 0.18 | 0.633 (0.55–0.71) / 0.00 / 0.00 | 0.651 (0.54–0.75) / 0.18 / 0.04 | rel_knn10 |
@@ -29,7 +29,7 @@
 
 ## C. Per setting, adv form (no question prefix)
 
-| lang | variant | n | hit@5 | rel_knn10 | knn10 | LOF on knn10 | Mahalanobis | Isolation Forest | best |
+| lang | variant | n | hit@5 | rel_knn10 | knn10 | kNN distance ratio | Mahalanobis | Isolation Forest | best |
 |---|---|---|---|---|---|---|---|---|---|
 | sw | trans | 47 | 0.81 | 0.763 (0.68–0.84) / 0.34 / 0.15 | 0.800 (0.74–0.85) / 0.15 / 0.00 | 0.730 (0.65–0.81) / 0.30 / 0.11 | 0.647 (0.59–0.71) / 0.00 / 0.00 | 0.560 (0.48–0.63) / 0.06 / 0.00 | knn10 |
 | sw | native | 28 | 0.86 | 0.932 (0.89–0.96) / 0.57 / 0.32 | 0.922 (0.89–0.95) / 0.21 / 0.04 | 0.895 (0.84–0.94) / 0.50 / 0.25 | 0.607 (0.53–0.69) / 0.00 / 0.00 | 0.500 (0.41–0.59) / 0.00 / 0.00 | rel_knn10 |
@@ -51,4 +51,4 @@
 - adv: rel_knn10 has the best AUROC among the distance/density detectors in 7/12 settings; rel_knn10 > knn10 by AUROC in 7/12, by TPR@5% in 10/12 (ties 2).
 - adv: translated poison is harder to detect than English poison (rel_knn10 AUROC, unpaired, all valid questions of each variant) in 4/4 languages (sw, te, yo, id).
 
-Notes. Thresholds are the 95th / 99th percentile of the 2,000 random benign passages under this encoder. hit@5 is recomputed with this encoder (one poison injected per question). The BGE-M3 columns are read from results/miracl/baselines/summary.json. Section D compares variants on all valid questions of each variant, not on the shared questions of Table IV.
+Notes. Thresholds are the 95th / 99th percentile of the 2,000 random benign passages under this encoder. hit@5 is recomputed with this encoder (one poison injected per question). The BGE-M3 columns are read from results/miracl/baselines/summary.json. Section D compares variants on all valid questions of each variant, not on the shared questions of Table 2.

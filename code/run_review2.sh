@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
-# Second supplementary round: fix C10 (45k ASR file names carried a _sub45000 suffix) + evidence-check ablation / combination / cost. About 1 hour, shuts down automatically.
+# Second supplementary round: fix C10 (45k ASR file names carried a _sub45000 suffix) + evidence-check ablation / combination / cost. About 1 hour.
 #   cd "$(dirname "${BASH_SOURCE[0]}")"
 #   nohup bash run_review2.sh > run_review2.log 2>&1 &
-# Optional: SHUTDOWN=0 (do not shut down); SKIP="G1"
+# Optional: SKIP="G1"
 set -u
 cd "$(dirname "$0")"
 PROJ=${PROJ:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}; R=$PROJ/results/miracl
-SHUTDOWN=${SHUTDOWN:-1}; SKIP=${SKIP:-}; GPU_TIMEOUT=${GPU_TIMEOUT:-2h}
+export PROJ
+SKIP=${SKIP:-}; GPU_TIMEOUT=${GPU_TIMEOUT:-2h}
 export VLLM_CACHE_ROOT=${VLLM_CACHE_ROOT:-$HOME/.cache/vllm} TORCHINDUCTOR_CACHE_DIR=${TORCHINDUCTOR_CACHE_DIR:-$HOME/.cache/inductor}
 STATUS=$PWD/run_review2_status.txt; : > "$STATUS"; T0=$(date +%s)
 el() { echo "$(( ($(date +%s) - T0) / 60 )) min"; }
@@ -34,7 +35,7 @@ for f in ml_evidence_ablation.py evidence_combo.py reader_compare.py asr_scale_c
 done
 for l in sw te yo id; do [ -f "$R/baselines/${l}_evidence.npz" ] || { echo "missing baselines/${l}_evidence.npz"; miss=1; }; done
 nvidia-smi --query-gpu=name,memory.total --format=csv,noheader || { echo "no GPU (needs a GPU instance)"; miss=1; }
-[ $miss = 1 ] && { echo "checks failed; not running, not shutting down"; exit 1; }
+[ $miss = 1 ] && { echo "checks failed; not running"; exit 1; }
 
 step C0 "fix 45k ASR file locations + size x ASR comparison" fix_c10
 step C1 "cross-model comparison table (yo note corrected)" python reader_compare.py
@@ -45,10 +46,9 @@ step C3 "same (no exclusion)" python evidence_combo.py --judgments none
 echo; echo "======== package (elapsed $(el)) ========"
 cp "$STATUS" run_review2.log "$R/" 2>/dev/null
 cd "$R"
-tar czf /root/review2_results.tar.gz --ignore-failed-read asr_scale_compare.md asr_scale_sub45000/asr_summary_excl-bad.* \
+PACKAGE="$PROJ/review2_results.tar.gz"
+tar czf "$PACKAGE" --ignore-failed-read asr_scale_compare.md asr_scale_sub45000/asr_summary_excl-bad.* \
   reader_compare.md baselines/evidence_combo*.md baselines/evidence_cost.json run_review2_status.txt run_review2.log 2>/dev/null
-ls -lh /root/review2_results.tar.gz
-[ -d /root/autodl-fs ] && cp /root/review2_results.tar.gz /root/autodl-fs/ && echo "backed up to /root/autodl-fs/"
+ls -lh "$PACKAGE"
 sync
-echo; cat "$STATUS"; echo; echo "All done, total time $(el). Result package /root/review2_results.tar.gz"
-if [ "$SHUTDOWN" = 1 ]; then echo "shutting down in 60 s"; sleep 60; shutdown -h now; else echo "(SHUTDOWN=0, not shutting down)"; fi
+echo; cat "$STATUS"; echo; echo "All done, total time $(el). Result package $PACKAGE"

@@ -1,0 +1,8 @@
+SETUP corpus=49043 reference=46091 heldout=2952 calibration=2000 length_matched=1000 valid=26
+
+正在拟合 sklearn 标准 novelty LOF，k=10，cosine，精确搜索……
+正在计算相同参考库上的三个 kNN 对照……
+RESULT standard_LOF         AUROC=0.8230 TPR@1%=1/26 TPR@5%=8/26
+RESULT knn10                AUROC=0.8630 TPR@1%=4/26 TPR@5%=13/26
+RESULT rel_knn10            AUROC=0.8465 TPR@1%=4/26 TPR@5%=12/26
+RESULT knn_distance_ratio   AUROC=0.7856 TPR@1%=1/26 TPR@5%=8/26

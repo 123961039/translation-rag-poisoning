@@ -17,7 +17,7 @@ R = os.path.join(PROJ, "results", "miracl")
 D = os.path.join(R, "baselines")
 LANGS = ["sw", "te", "yo", "id"]
 VARIANTS = ["trans", "native", "en"]
-METHODS = [("rel_knn10", "rel_knn10 (ours)"), ("knn10", "knn10 (ours)"), ("lof_knn10", "LOF"),
+METHODS = [("rel_knn10", "rel_knn10 (ours)"), ("knn10", "knn10 (ours)"), ("lof_knn10", "kNN distance ratio"),
            ("maha", "Mahalanobis"), ("iforest", "Isolation Forest"), ("ppl_low", "perplexity, low suspicious"),
            ("ppl_high", "perplexity, high suspicious"), ("judge", "LLM judge (no evidence)"), ("evidence", "evidence check (LLM + retrieved evidence)")]
 

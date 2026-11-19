@@ -1,0 +1,75 @@
+GPU: NVIDIA GeForce RTX 4080 torch: 2.13.0+cu130
+Corpus: sw (131924, 1024) float16
+
+Reference rows: 130924 held-out unique texts: 1000
+rep=1 lang=sw batch=1 encode_s=1.0381 encode_screen_s=1.1153 overhead_pct=7.43
+rep=2 lang=sw batch=1 encode_s=1.0552 encode_screen_s=1.1113 overhead_pct=5.31
+rep=3 lang=sw batch=1 encode_s=1.0394 encode_screen_s=1.1117 overhead_pct=6.96
+rep=4 lang=sw batch=1 encode_s=1.0558 encode_screen_s=1.1135 overhead_pct=5.46
+rep=5 lang=sw batch=1 encode_s=1.0492 encode_screen_s=1.1063 overhead_pct=5.44
+rep=6 lang=sw batch=1 encode_s=1.0414 encode_screen_s=1.1287 overhead_pct=8.39
+RESULT lang=sw batch=1 n=64 encode_docs_s=61.2 screened_docs_s=57.5 paired_overhead_pct=6.21 mean_U=10.0 U_fraction=1.000
+rep=1 lang=sw batch=128 encode_s=2.5158 encode_screen_s=2.7506 overhead_pct=9.34
+rep=2 lang=sw batch=128 encode_s=2.5197 encode_screen_s=2.7472 overhead_pct=9.03
+rep=3 lang=sw batch=128 encode_s=2.5205 encode_screen_s=2.7424 overhead_pct=8.80
+rep=4 lang=sw batch=128 encode_s=2.5287 encode_screen_s=2.7454 overhead_pct=8.57
+rep=5 lang=sw batch=128 encode_s=2.5329 encode_screen_s=2.7542 overhead_pct=8.74
+rep=6 lang=sw batch=128 encode_s=2.5377 encode_screen_s=2.7515 overhead_pct=8.42
+RESULT lang=sw batch=128 n=896 encode_docs_s=354.9 screened_docs_s=325.9 paired_overhead_pct=8.77 mean_U=1266.9 U_fraction=0.990
+rep=1 lang=sw batch=1000 encode_s=1.0263 encode_screen_s=1.0749 overhead_pct=4.74
+rep=2 lang=sw batch=1000 encode_s=1.0264 encode_screen_s=1.0724 overhead_pct=4.48
+rep=3 lang=sw batch=1000 encode_s=1.0236 encode_screen_s=1.0734 overhead_pct=4.86
+rep=4 lang=sw batch=1000 encode_s=1.0258 encode_screen_s=1.0760 overhead_pct=4.90
+rep=5 lang=sw batch=1000 encode_s=1.0253 encode_screen_s=1.0760 overhead_pct=4.95
+rep=6 lang=sw batch=1000 encode_s=1.0284 encode_screen_s=1.0746 overhead_pct=4.50
+RESULT lang=sw batch=1000 n=1000 encode_docs_s=974.6 screened_docs_s=930.4 paired_overhead_pct=4.80 mean_U=9457.0 U_fraction=0.946
+GPU: NVIDIA GeForce RTX 4080 torch: 2.13.0+cu130
+Corpus: te (518079, 1024) float16
+
+Reference rows: 517079 held-out unique texts: 1000
+rep=1 lang=te batch=1 encode_s=1.0395 encode_screen_s=1.1762 overhead_pct=13.16
+rep=2 lang=te batch=1 encode_s=1.0335 encode_screen_s=1.1750 overhead_pct=13.69
+rep=3 lang=te batch=1 encode_s=1.0302 encode_screen_s=1.1710 overhead_pct=13.66
+rep=4 lang=te batch=1 encode_s=1.0336 encode_screen_s=1.1870 overhead_pct=14.84
+rep=5 lang=te batch=1 encode_s=1.0243 encode_screen_s=1.1703 overhead_pct=14.25
+rep=6 lang=te batch=1 encode_s=1.0281 encode_screen_s=1.1944 overhead_pct=16.17
+RESULT lang=te batch=1 n=64 encode_docs_s=62.0 screened_docs_s=54.4 paired_overhead_pct=13.97 mean_U=10.0 U_fraction=1.000
+rep=1 lang=te batch=128 encode_s=3.7769 encode_screen_s=4.1733 overhead_pct=10.50
+rep=2 lang=te batch=128 encode_s=3.7890 encode_screen_s=4.1801 overhead_pct=10.32
+rep=3 lang=te batch=128 encode_s=3.7968 encode_screen_s=4.2092 overhead_pct=10.86
+rep=4 lang=te batch=128 encode_s=3.8005 encode_screen_s=4.2088 overhead_pct=10.74
+rep=5 lang=te batch=128 encode_s=3.8055 encode_screen_s=4.1984 overhead_pct=10.32
+rep=6 lang=te batch=128 encode_s=3.8066 encode_screen_s=4.1973 overhead_pct=10.26
+RESULT lang=te batch=128 n=896 encode_docs_s=235.9 screened_docs_s=213.4 paired_overhead_pct=10.41 mean_U=1277.3 U_fraction=0.998
+rep=1 lang=te batch=1000 encode_s=1.4721 encode_screen_s=1.7054 overhead_pct=15.85
+rep=2 lang=te batch=1000 encode_s=1.4681 encode_screen_s=1.7078 overhead_pct=16.33
+rep=3 lang=te batch=1000 encode_s=1.4661 encode_screen_s=1.7063 overhead_pct=16.38
+rep=4 lang=te batch=1000 encode_s=1.4701 encode_screen_s=1.7076 overhead_pct=16.16
+rep=5 lang=te batch=1000 encode_s=1.4671 encode_screen_s=1.7068 overhead_pct=16.34
+rep=6 lang=te batch=1000 encode_s=1.4769 encode_screen_s=1.7111 overhead_pct=15.85
+RESULT lang=te batch=1000 n=1000 encode_docs_s=680.7 screened_docs_s=585.8 paired_overhead_pct=16.24 mean_U=9849.0 U_fraction=0.985
+GPU: NVIDIA GeForce RTX 4080 torch: 2.13.0+cu130
+Corpus: yo (49043, 1024) float16
+
+Reference rows: 48043 held-out unique texts: 1000
+rep=1 lang=yo batch=1 encode_s=1.0076 encode_screen_s=1.0688 overhead_pct=6.08
+rep=2 lang=yo batch=1 encode_s=1.0143 encode_screen_s=1.0792 overhead_pct=6.40
+rep=3 lang=yo batch=1 encode_s=1.0165 encode_screen_s=1.0738 overhead_pct=5.63
+rep=4 lang=yo batch=1 encode_s=1.0431 encode_screen_s=1.0785 overhead_pct=3.39
+rep=5 lang=yo batch=1 encode_s=1.0213 encode_screen_s=1.0629 overhead_pct=4.07
+rep=6 lang=yo batch=1 encode_s=1.0119 encode_screen_s=1.0636 overhead_pct=5.12
+RESULT lang=yo batch=1 n=64 encode_docs_s=63.0 screened_docs_s=59.7 paired_overhead_pct=5.37 mean_U=10.0 U_fraction=1.000
+rep=1 lang=yo batch=128 encode_s=3.7507 encode_screen_s=4.0747 overhead_pct=8.64
+rep=2 lang=yo batch=128 encode_s=3.7634 encode_screen_s=4.0779 overhead_pct=8.36
+rep=3 lang=yo batch=128 encode_s=3.7698 encode_screen_s=4.0733 overhead_pct=8.05
+rep=4 lang=yo batch=128 encode_s=3.7681 encode_screen_s=4.0588 overhead_pct=7.71
+rep=5 lang=yo batch=128 encode_s=3.7685 encode_screen_s=4.0659 overhead_pct=7.89
+rep=6 lang=yo batch=128 encode_s=3.7753 encode_screen_s=4.0686 overhead_pct=7.77
+RESULT lang=yo batch=128 n=896 encode_docs_s=237.8 screened_docs_s=220.1 paired_overhead_pct=7.97 mean_U=1256.7 U_fraction=0.982
+rep=1 lang=yo batch=1000 encode_s=1.1491 encode_screen_s=1.1659 overhead_pct=1.46
+rep=2 lang=yo batch=1000 encode_s=1.1480 encode_screen_s=1.1691 overhead_pct=1.83
+rep=3 lang=yo batch=1000 encode_s=1.1476 encode_screen_s=1.1764 overhead_pct=2.51
+rep=4 lang=yo batch=1000 encode_s=1.1455 encode_screen_s=1.1686 overhead_pct=2.02
+rep=5 lang=yo batch=1000 encode_s=1.1465 encode_screen_s=1.1672 overhead_pct=1.80
+rep=6 lang=yo batch=1000 encode_s=1.1512 encode_screen_s=1.1700 overhead_pct=1.63
+RESULT lang=yo batch=1000 n=1000 encode_docs_s=871.2 screened_docs_s=855.6 paired_overhead_pct=1.82 mean_U=8491.0 U_fraction=0.849

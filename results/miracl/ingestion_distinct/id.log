@@ -1,0 +1,25 @@
+GPU: NVIDIA GeForce RTX 4080 torch: 2.13.0+cu130
+Corpus: (1446315, 1024) float16
+
+Reference rows: 1445315 held-out unique texts: 1000
+rep=1 batch=1 encode_s=1.0081 encode_screen_s=1.3657 overhead_pct=35.48
+rep=2 batch=1 encode_s=1.0315 encode_screen_s=1.3357 overhead_pct=29.48
+rep=3 batch=1 encode_s=1.0126 encode_screen_s=1.3336 overhead_pct=31.70
+rep=4 batch=1 encode_s=1.0037 encode_screen_s=1.3465 overhead_pct=34.15
+rep=5 batch=1 encode_s=1.0193 encode_screen_s=1.3487 overhead_pct=32.31
+rep=6 batch=1 encode_s=1.0066 encode_screen_s=1.3935 overhead_pct=38.44
+RESULT lang=id batch=1 n=64 encode_docs_s=63.3 screened_docs_s=47.5 paired_overhead_pct=33.23 mean_U=10.0 U_fraction=1.000
+rep=1 batch=128 encode_s=2.6178 encode_screen_s=3.2210 overhead_pct=23.04
+rep=2 batch=128 encode_s=2.6380 encode_screen_s=3.2281 overhead_pct=22.37
+rep=3 batch=128 encode_s=2.6401 encode_screen_s=3.2424 overhead_pct=22.81
+rep=4 batch=128 encode_s=2.6468 encode_screen_s=3.2427 overhead_pct=22.51
+rep=5 batch=128 encode_s=2.6455 encode_screen_s=3.2488 overhead_pct=22.80
+rep=6 batch=128 encode_s=2.6495 encode_screen_s=3.2566 overhead_pct=22.91
+RESULT lang=id batch=128 n=896 encode_docs_s=339.0 screened_docs_s=276.3 paired_overhead_pct=22.81 mean_U=1279.0 U_fraction=0.999
+rep=1 batch=1000 encode_s=1.2040 encode_screen_s=1.8662 overhead_pct=55.00
+rep=2 batch=1000 encode_s=1.2041 encode_screen_s=1.8718 overhead_pct=55.45
+rep=3 batch=1000 encode_s=1.2046 encode_screen_s=1.8643 overhead_pct=54.76
+rep=4 batch=1000 encode_s=1.1994 encode_screen_s=1.8671 overhead_pct=55.67
+rep=5 batch=1000 encode_s=1.2022 encode_screen_s=1.8661 overhead_pct=55.22
+rep=6 batch=1000 encode_s=1.2020 encode_screen_s=1.8661 overhead_pct=55.25
+RESULT lang=id batch=1000 n=1000 encode_docs_s=831.2 screened_docs_s=535.9 paired_overhead_pct=55.24 mean_U=9944.0 U_fraction=0.994

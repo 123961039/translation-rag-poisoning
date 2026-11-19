@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
-# Final round: merge new yo questions -> rerun all yo experiments (GPU) -> recompute all statistics (CPU) -> package and back up -> shut down.
+# Final round: merge new yo questions -> rerun all yo experiments (GPU) -> recompute all statistics (CPU) -> package.
 # One command after starting the GPU instance:
 #   cd "$(dirname "${BASH_SOURCE[0]}")"
 #   nohup bash run_final.sh > run_final.log 2>&1 &
 # Optional environment variables:
-#   XLSX=/root/yo_expand.xlsx   returned yo annotation file (default path)
-#   SHUTDOWN=0                  do not shut down at the end (default 1 = shut down)
-#   GPU_TIMEOUT=4h              maximum wait for the GPU part; on timeout it is killed (against hangs), and statistics, packaging and shutdown still run
-# Success / failure of each step is recorded in run_final_status.txt; a failed step does not block later statistics and shutdown;
+#   XLSX=$PROJ/yo_expand.xlsx   returned yo annotation file (default path)
+#   GPU_TIMEOUT=4h              maximum wait for the GPU part; on timeout it is killed (against hangs), and statistics and packaging still run
+# Success / failure of each step is recorded in run_final_status.txt; a failed step does not block later statistics;
 # failed steps and reasons are in the log, to be redone next time.
 set -u
 cd "$(dirname "$0")"
 PROJ=${PROJ:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}; R=$PROJ/results/miracl
-XLSX=${XLSX:-/root/yo_expand.xlsx}; SHUTDOWN=${SHUTDOWN:-1}; GPU_TIMEOUT=${GPU_TIMEOUT:-4h}
+export PROJ
+XLSX="${XLSX:-$PROJ/yo_expand.xlsx}"; GPU_TIMEOUT=${GPU_TIMEOUT:-4h}
 export VLLM_CACHE_ROOT=${VLLM_CACHE_ROOT:-$HOME/.cache/vllm} TORCHINDUCTOR_CACHE_DIR=${TORCHINDUCTOR_CACHE_DIR:-$HOME/.cache/inductor}
 STATUS=$PWD/run_final_status.txt; : > "$STATUS"
 T0=$(date +%s)
@@ -32,7 +32,7 @@ for f in "$XLSX" "$R/yo/annot_new/yo_expand_KEY_do_not_share.json" "$R/yo/poison
   [ -e "$f" ] || { echo "missing $f"; miss=1; }
 done
 nvidia-smi --query-gpu=name,memory.total --format=csv,noheader || { echo "no GPU (CPU-only instance?)"; miss=1; }
-if [ $miss = 1 ]; then echo "checks failed; not running, not shutting down"; exit 1; fi
+if [ $miss = 1 ]; then echo "checks failed; not running"; exit 1; fi
 df -h "${PROJ:-.}" | tail -1
 
 # ---- 1. merge new yo questions (CPU, seconds) ----
@@ -59,18 +59,17 @@ step "3j paired poison variants (native)" python ml_paired_variants.py
 step "3k paired poison variants (no exclusion)" python ml_paired_variants.py --judgments none
 step "3l paired poison variants (45k)" python ml_paired_variants.py --feats _sub45000
 
-# ---- 4. package, back up ----
+# ---- 4. package ----
 echo; echo "======== 4 package (elapsed $(el)) ========"
 cp "$STATUS" run_final.log "$R/" 2>/dev/null
 cd "$R"
-tar czf /root/final_results.tar.gz --ignore-failed-read \
+PACKAGE="$PROJ/final_results.tar.gz"
+tar czf "$PACKAGE" --ignore-failed-read \
   rejudge/compare.md rejudge/*/*.md rejudge/*/*.json \
   scale_seeds/summary*.md scale_seeds/density*.md baselines/summary*.md paired_variants*.md \
   reader_compare.md efficiency.md yo/poison_new_stats.json yo/trans_check_expand.json \
   review_judgments_native.json run_final_status.txt run_final.log 2>/dev/null
-ls -lh /root/final_results.tar.gz
-if [ -d /root/autodl-fs ]; then cp /root/final_results.tar.gz /root/autodl-fs/ && echo "backed up to /root/autodl-fs/"; fi
+ls -lh "$PACKAGE"
 sync
 echo; echo "step results:"; cat "$STATUS"
-echo; echo "All done, total time $(el). Result package /root/final_results.tar.gz"
-if [ "$SHUTDOWN" = 1 ]; then echo "shutting down in 60 s"; sleep 60; shutdown -h now; else echo "(SHUTDOWN=0, not shutting down)"; fi
+echo; echo "All done, total time $(el). Result package $PACKAGE"

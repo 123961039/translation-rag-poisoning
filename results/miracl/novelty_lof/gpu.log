@@ -1,0 +1,63 @@
+SETUP lang='yo' corpus=49043 reference=46091 heldout=2952 valid=26
+
+yo: reference and candidates ready
+yo: first-layer unique=18609, second-layer unique=36759
+yo: second layer 1024/36759
+yo: second layer 17408/36759
+yo: second layer 33792/36759
+CHECK standard_LOF sklearn=(0.823, 1, 8) gpu=(0.823, 1, 8)
+CHECK knn10 sklearn=(0.86296, 4, 13) gpu=(0.86296, 4, 13)
+CHECK rel_knn10 sklearn=(0.8465, 4, 12) gpu=(0.8465, 4, 12)
+CHECK knn_distance_ratio sklearn=(0.78562, 1, 8) gpu=(0.78562, 1, 8)
+RESULT lang=yo method=standard_LOF AUROC=0.8230 TPR@1%=1/26 TPR@5%=8/26
+RESULT lang=yo method=knn10 AUROC=0.8630 TPR@1%=4/26 TPR@5%=13/26
+RESULT lang=yo method=rel_knn10 AUROC=0.8465 TPR@1%=4/26 TPR@5%=12/26
+RESULT lang=yo method=knn_distance_ratio AUROC=0.7856 TPR@1%=1/26 TPR@5%=8/26
+SETUP lang='sw' corpus=131924 reference=128932 heldout=2992 valid=47
+
+sw: reference and candidates ready
+sw: first-layer unique=25825, second-layer unique=80092
+sw: second layer 1024/80092
+sw: second layer 17408/80092
+sw: second layer 33792/80092
+sw: second layer 50176/80092
+sw: second layer 66560/80092
+RESULT lang=sw method=standard_LOF AUROC=0.6311 TPR@1%=1/47 TPR@5%=5/47
+RESULT lang=sw method=knn10 AUROC=0.6581 TPR@1%=4/47 TPR@5%=11/47
+RESULT lang=sw method=rel_knn10 AUROC=0.7257 TPR@1%=3/47 TPR@5%=10/47
+RESULT lang=sw method=knn_distance_ratio AUROC=0.7040 TPR@1%=2/47 TPR@5%=7/47
+SETUP lang='te' corpus=518079 reference=515086 heldout=2993 valid=52
+
+te: reference and candidates ready
+te: first-layer unique=28804, second-layer unique=138337
+te: second layer 1024/138337
+te: second layer 17408/138337
+te: second layer 33792/138337
+te: second layer 50176/138337
+te: second layer 66560/138337
+te: second layer 82944/138337
+te: second layer 99328/138337
+te: second layer 115712/138337
+te: second layer 132096/138337
+RESULT lang=te method=standard_LOF AUROC=0.7476 TPR@1%=2/52 TPR@5%=17/52
+RESULT lang=te method=knn10 AUROC=0.8564 TPR@1%=6/52 TPR@5%=18/52
+RESULT lang=te method=rel_knn10 AUROC=0.8930 TPR@1%=15/52 TPR@5%=28/52
+RESULT lang=te method=knn_distance_ratio AUROC=0.7966 TPR@1%=10/52 TPR@5%=19/52
+SETUP lang='id' corpus=1446315 reference=1443317 heldout=2998 valid=28
+
+id: reference and candidates ready
+id: first-layer unique=29650, second-layer unique=155603
+id: second layer 1024/155603
+id: second layer 17408/155603
+id: second layer 33792/155603
+id: second layer 50176/155603
+id: second layer 66560/155603
+id: second layer 82944/155603
+id: second layer 99328/155603
+id: second layer 115712/155603
+id: second layer 132096/155603
+id: second layer 148480/155603
+RESULT lang=id method=standard_LOF AUROC=0.6500 TPR@1%=1/28 TPR@5%=5/28
+RESULT lang=id method=knn10 AUROC=0.7172 TPR@1%=1/28 TPR@5%=4/28
+RESULT lang=id method=rel_knn10 AUROC=0.8180 TPR@1%=2/28 TPR@5%=9/28
+RESULT lang=id method=knn_distance_ratio AUROC=0.7750 TPR@1%=1/28 TPR@5%=8/28

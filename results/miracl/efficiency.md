@@ -1,4 +1,4 @@
-# System cost of ingestion detection (NVIDIA GeForce RTX 4080 SUPER, bge-m3 fp16, exact top-k with the corpus resident in GPU memory)
+# Historical system cost of ingestion detection (NVIDIA GeForce RTX 4080 SUPER, bge-m3 fp16, exact top-k with the corpus resident in GPU memory)
 
 ## Online: detection cost per new document
 

@@ -4,7 +4,7 @@ Yoruba expansion, step 3 (CPU): run after receiving the annotator's yo_expand__<
      (source = native_expand; existing judgments are left unchanged)
   2. Task C: does the translation still state the wrong answer; saved as yo/trans_check_expand.json (used later to correct trans ASR)
   3. append the new questions to yo/poison.jsonl (original backed up; old question order unchanged, so downstream alignment is unaffected)
-    python merge_yo_new.py --xlsx /root/yo_expand__xxx.xlsx
+    python merge_yo_new.py --xlsx ./yo_expand__xxx.xlsx
 Then, on a GPU instance: bash yo_rerun.sh to re-run the Yoruba downstream steps.
 """
 import argparse, json, os, shutil, time
